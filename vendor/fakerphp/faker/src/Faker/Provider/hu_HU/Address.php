@@ -5,9 +5,9 @@ namespace Faker\Provider\hu_HU;
 class Address extends \Faker\Provider\Address
 {
     protected static $cityFormats = [
-        '{{}}',
-        '{{}}',
-        '{{}}',
+        '{{capital}}',
+        '{{capital}}',
+        '{{capital}}',
         '{{bigCity}}',
         '{{bigCity}}',
         '{{smallerCity}}',
@@ -44,9 +44,9 @@ class Address extends \Faker\Provider\Address
     /**
      * @example 'Budapest'
      */
-    public static function ()
+    public static function capital()
     {
-        return static::randomElement(static::$s);
+        return static::randomElement(static::$capitals);
     }
 
     /**
@@ -118,7 +118,7 @@ class Address extends \Faker\Provider\Address
     /**
      * Source: https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g_v%C3%A1rosainak_list%C3%A1ja
      */
-    protected static $s = ['Budapest'];
+    protected static $capitals = ['Budapest'];
     protected static $bigCities = [
         'Békéscsaba', 'Debrecen', 'Dunaújváros', 'Eger', 'Érd', 'Győr', 'Hódmezővásárhely', 'Kaposvár', 'Kecskemét', 'Miskolc', 'Nagykanizsa', 'Nyíregyháza', 'Pécs', 'Salgótarján', 'Sopron', 'Szeged', 'Székesfehérvár', 'Szekszárd', 'Szolnok', 'Szombathely', 'Tatabánya', 'Veszprém', 'Zalaegerszeg',
     ];

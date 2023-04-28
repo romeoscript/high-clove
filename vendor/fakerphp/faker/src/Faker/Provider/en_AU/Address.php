@@ -46,7 +46,7 @@ class Address extends \Faker\Provider\en_US\Address
     ];
 
     protected static $state = [
-        'Australian  Territory', 'New South Wales', 'Northern Territory', 'Queensland', 'South Australia', 'Tasmania', 'Victoria', 'Western Australia',
+        'Australian Capital Territory', 'New South Wales', 'Northern Territory', 'Queensland', 'South Australia', 'Tasmania', 'Victoria', 'Western Australia',
     ];
 
     protected static $stateAbbr = [

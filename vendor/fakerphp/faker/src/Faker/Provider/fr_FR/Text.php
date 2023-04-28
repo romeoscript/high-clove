@@ -2216,7 +2216,7 @@ clarté des étoiles. Au bout d'une distance indéterminée, il se
 trouvait toujours une place confuse où expirait son rêve.
 
 Elle s'acheta un plan de Paris, et, du bout de son doigt, sur la
-carte, elle faisait des courses dans la e. Elle remontait
+carte, elle faisait des courses dans la capitale. Elle remontait
 les boulevards, s'arrêtant à chaque angle, entre les lignes des
 rues, devant les carrés blancs qui figurent les maisons. Les yeux
 fatigués à la fin, elle fermait ses paupières, et elle voyait dans
@@ -7570,7 +7570,7 @@ réduire un malheureux homme en un tel état. Secouant M. Homais par
 le bouton de sa redingote, il vociférait dans la pharmacie:
 
 -- Ce sont là des inventions de Paris! Voilà les idées de ces
-messieurs de la e! c'est comme le strabisme, le chloroforme
+messieurs de la Capitale! c'est comme le strabisme, le chloroforme
 et la lithotritie, un tas de monstruosités que le gouvernement
 devrait défendre! Mais on veut faire le malin, et l'on vous fourre
 des remèdes sans s'inquiéter des conséquences. Nous ne sommes pas
@@ -7592,7 +7592,7 @@ Ce fut dans le village un événement considérable que cette
 amputation de cuisse par le docteur Canivet! Tous les habitants,
 ce jour-là, s'étaient levés de meilleure heure, et la Grande-Rue,
 bien que pleine de monde, avait quelque chose de lugubre comme
-s'il se fût agi d'une exécution e. On discutait chez
+s'il se fût agi d'une exécution capitale. On discutait chez
 l'épicier sur la maladie d'Hippolyte; les boutiques ne vendaient
 rien, et madame Tuvache, la femme du maire, ne bougeait pas de sa
 fenêtre, par l'impatience où elle était de voir venir l'opérateur.
@@ -9478,7 +9478,7 @@ l'homme par l'illusion du personnage, elle tâcha de se figurer sa
 vie, cette vie retentissante, extraordinaire, splendide, et
 qu'elle aurait pu mener cependant, si le hasard l'avait voulu. Ils
 se seraient connus, ils se seraient aimés! Avec lui, par tous les
-royaumes de l'Europe, elle aurait voyagé de e en e,
+royaumes de l'Europe, elle aurait voyagé de capitale en capitale,
 partageant ses fatigues et son orgueil, ramassant les fleurs qu'on
 lui jetait, brodant elle-même ses costumes; puis, chaque soir, au
 fond d'une loge, derrière la grille à treillis d'or, elle eût
@@ -11159,7 +11159,7 @@ toutes à la fois la vapeur des passions qu'elle leur supposait.
 Son amour s'agrandissait devant l'espace, et s'emplissait de
 tumulte aux bourdonnements vagues qui montaient. Elle le reversait
 au dehors, sur les places, sur les promenades, sur les rues, et la
-vieille cité normande s'étalait à ses yeux comme une e
+vieille cité normande s'étalait à ses yeux comme une capitale
 démesurée, comme une Babylone où elle entrait. Elle se penchait
 des deux mains par le vasistas, en humant la brise; les trois
 chevaux galopaient, les pierres grinçaient dans la boue, la
@@ -11873,7 +11873,7 @@ L'apothicaire, autrefois, se fût bien gardé d'une telle
 expression; mais il donnait maintenant dans un genre folâtre et
 parisien qu'il trouvait du meilleur goût; et, comme madame Bovary,
 sa voisine, il interrogeait le clerc curieusement sur les moeurs
-de la e, même il parlait argot afin d'éblouir... les
+de la capitale, même il parlait argot afin d'éblouir... les
 bourgeois, disant _turne, bazar, chicard, chicandard, Breda-
 street, _et _Je me la casse_, pour: Je m'en vais.
 
@@ -12519,7 +12519,7 @@ Ce qui la rassurait, c'était l'exagération même de la somme.
 Cependant, à force d'acheter, de ne pas payer, d'emprunter, de
 souscrire des billets, puis de renouveler ces billets, qui
 s'enflaient à chaque échéance nouvelle, elle avait fini par
-préparer au sieur Lheureux un , qu'il attendait
+préparer au sieur Lheureux un capital, qu'il attendait
 impatiemment pour ses spéculations.
 
 Elle se présenta chez lui d'un air dégagé.

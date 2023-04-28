@@ -2,7 +2,7 @@ Introduction
 ============
 
 The Doctrine Inflector has methods for inflecting text. The features include pluralization,
-singularization, converting between camelCase and under_score and izing
+singularization, converting between camelCase and under_score and capitalizing
 words.
 
 Installation
@@ -156,10 +156,10 @@ This method uses `Classify`_ and then converts the first character to lowercase:
 
     echo $inflector->camelize('model_name'); // modelName
 
-ize
+Capitalize
 ==========
 
-Takes a string and izes all of the words, like PHP's built-in
+Takes a string and capitalizes all of the words, like PHP's built-in
 ``ucwords`` function. This extends that behavior, however, by allowing the
 word delimiters to be configured, rather than only separating on
 whitespace.
@@ -170,9 +170,9 @@ Here is an example:
 
     $string = 'top-o-the-morning to all_of_you!';
 
-    echo $inflector->ize($string); // Top-O-The-Morning To All_of_you!
+    echo $inflector->capitalize($string); // Top-O-The-Morning To All_of_you!
 
-    echo $inflector->ize($string, '-_ '); // Top-O-The-Morning To All_Of_You!
+    echo $inflector->capitalize($string, '-_ '); // Top-O-The-Morning To All_Of_You!
 
 Pluralize
 =========

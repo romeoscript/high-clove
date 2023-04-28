@@ -262,7 +262,7 @@ class Inflector
     /**
      * Uppercases words with configurable delimiters between words.
      *
-     * Takes a string and izes all of the words, like PHP's built-in
+     * Takes a string and capitalizes all of the words, like PHP's built-in
      * ucwords function. This extends that behavior, however, by allowing the
      * word delimiters to be configured, rather than only separating on
      * whitespace.
@@ -271,10 +271,10 @@ class Inflector
      * <code>
      * <?php
      * $string = 'top-o-the-morning to all_of_you!';
-     * echo $inflector->ize($string);
+     * echo $inflector->capitalize($string);
      * // Top-O-The-Morning To All_of_you!
      *
-     * echo $inflector->ize($string, '-_ ');
+     * echo $inflector->capitalize($string, '-_ ');
      * // Top-O-The-Morning To All_Of_You!
      * ?>
      * </code>
@@ -282,9 +282,9 @@ class Inflector
      * @param string $string     The string to operate on.
      * @param string $delimiters A list of word separators.
      *
-     * @return string The string with all delimiter-separated words ized.
+     * @return string The string with all delimiter-separated words capitalized.
      */
-    public function ize(string $string, string $delimiters = " \n\t\r\0\x0B-"): string
+    public function capitalize(string $string, string $delimiters = " \n\t\r\0\x0B-"): string
     {
         return ucwords($string, $delimiters);
     }

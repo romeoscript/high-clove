@@ -79,7 +79,7 @@ class Payment extends \Faker\Provider\Payment
      */
     protected static $financeCompanies = [
         'Best Finance Company',
-        ' Merchant Banking & Finance',
+        'Capital Merchant Banking & Finance',
         'Central Finance',
         'Goodwill Finance Company',
         'Guheshwori Merchant Banking & Finance',

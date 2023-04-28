@@ -42,7 +42,7 @@ class Address extends \Faker\Provider\fr_FR\Address
     ];
 
     protected static $region = [
-        'Wallonie', 'Flandre', 'Bruxelles-e',
+        'Wallonie', 'Flandre', 'Bruxelles-Capitale',
     ];
 
     protected static $province = [

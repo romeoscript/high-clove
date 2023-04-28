@@ -31,7 +31,7 @@ class Company extends \Faker\Provider\Company
     protected static $companies = [
         'Adventa', 'AirAsia', 'AmBank', 'Astro Malaysia Holdings', 'Astro Radio', 'Axiata',
         'Berjaya Group', 'Bonia', 'Boustead Holdings', 'BSA Manufacturing', 'Bufori', 'Bumiputra-Commerce Holdings', 'Bursa Malaysia',
-        ' Dynamics', 'Celcom', 'CIMB',
+        'Capital Dynamics', 'Celcom', 'CIMB',
         'Digi Telecommunications', 'DRB-HICOM',
         'Edaran Otomobil Nasional (EON)',
         'Friendster',

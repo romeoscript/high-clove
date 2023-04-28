@@ -382,7 +382,7 @@ Tio Cosme vivia com minha mãe, desde que ella enviuvou. Já então era
 viuvo, como prima Justina; era a casa dos tres viuvos.
 
 A fortuna troca muita vez as mãos á natureza. Formado para as serenas
-funccões do ismo, tio Cosme não enriquecia no fòro: ia comendo.
+funccões do capitalismo, tio Cosme não enriquecia no fòro: ia comendo.
 Tinha o escriptorio na antiga rua das Violas, perto do jury, que era no
 extincto Aljube. Trabalhava no crime. José Dias não perdia as defesas
 oraes de tio Cosme. Era quem lhe vestia e despia a toga, com muitos

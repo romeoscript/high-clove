@@ -76,7 +76,7 @@ class Internet extends Base
      *
      * @return string
      */
-    public function companyemail()
+    public function companyEmail()
     {
         return preg_replace('/\s/u', '', $this->userName() . '@' . $this->domainName());
     }

@@ -203,7 +203,7 @@ class Lorem extends Base
         }
 
         if ($type === 'word') {
-            // ize first letter
+            // capitalize first letter
             $text[0] = ucwords($text[0]);
 
             // end sentence with full stop

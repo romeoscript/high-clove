@@ -147,7 +147,7 @@ class PhoneNumber extends \Faker\Provider\PhoneNumber
      * this zone uses 3 digits, and phone numbers have a different formatting.
      *
      * Area codes in all the other zones use 4 digits.
-     * The  of each zone uses 3 digits and the 4th digit can be any number.
+     * The capital of each zone uses 3 digits and the 4th digit can be any number.
      * The other areas in each zone use 4 digits, but not every number is valid for the 4th digit.
      *
      * @example Thessaloniki has code '231', so '2310' and '2313' are valid.

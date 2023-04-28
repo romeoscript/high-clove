@@ -19,7 +19,7 @@ class Address extends \Faker\Provider\fr_FR\Address
         // Saguenay–Lac-Saint-Jean
         '-de-Lorette', '-du-Lac-Saint-Jean', '-de-Bourget', '-de-Falardeau', '-les-Plaines', '-de-Sales', '-de-Taillon',
         '-de-Milot', '-du-Nord',
-        // Québec (e-Nationale)
+        // Québec (Capitale-Nationale)
         '-aux-Coudres', '-des-Anges', '-de-Desmaures', '-les-Neiges', '-de-l\'Île-d\'Orléans', '-de-Valcartier',
         '-de-Portneuf', '-du-Cap-Tourmente', '-des-Carrières', '-des-Caps', '-de-Beaupré', '-de-Laval', '-de-la-Jacques-Cartier',
         '-d\'Auvergne',
