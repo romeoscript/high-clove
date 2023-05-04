@@ -59,24 +59,24 @@
         </div><!-- .col -->
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">aspen-fm </h5>
+                <h5 class="heading-xs dash">transcopefinancing </h5>
                 <h2>Loans and Grants</h2>
                 <p class="lead">
                                         Getting a loan doesn’t have to be intimidating, with the right lender it can be
                        a simple process. You only need a lender committed to taking the mystery out of the mortgage loan
-                       process! At aspen-fm , we understand! Our investors want simple facts, honest answers
+                       process! At transcopefinancing , we understand! Our investors want simple facts, honest answers
                        and competitive products.
 
-DGS automatically offers loan services to investors with over $50,000 investment either in our normal aspen-fm  financial
+DGS automatically offers loan services to investors with over $50,000 investment either in our normal transcopefinancing  financial
 
 Services packages or the NFP plans. Investors over $50,000 are entitled to loans of $200,000-1millon dollars yearly with 5%
 paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and
-identity of the investor are duly confirmed by aspen-fm  loan board.
+identity of the investor are duly confirmed by transcopefinancing  loan board.
 
 Every investor above $50,000 is provided with a personal account manager and the investor has a direct communication with
 the manager in order to see that our loan offers are secured.
 
-GREAT INVESTING WITH aspen-fm  FAMILY
+GREAT INVESTING WITH transcopefinancing  FAMILY
                                         </p>
             </div>
         </div><!-- .col -->

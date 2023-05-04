@@ -82,7 +82,7 @@ The most exciting possibility for NFTs lies in the creation of new markets and f
                     <p>Initial dex offerings, or IDOs, are tokens that represent any type of asset hosted on a decentralized exchange (DEX) — an IDO is when a project launches a token through a decentralized liquidity exchange. IDOs can be created for anything from cryptocurrency to a music album, to aether powered battle ships. IDOs offer businesses a tool for engaging their communities in an economy that both enriches their products and services while allowing them to make smart business decisions regarding their assets.
 </p>
 
-    <!--<img src="https://aspen-fm.com/assets/images/etf.jpg" alt="icon" style="margin:25px; text-align:center;">-->
+    <!--<img src="https://transcopefinancing.com/assets/images/etf.jpg" alt="icon" style="margin:25px; text-align:center;">-->
 <p>
 In the same way that traditional startups receive venture capital before launching, projects issuing initial DEX offerings receive financing from individual investors. Unlike an initial public offering, investors in initial dex offerings never own any equity in the project.
 </p>
@@ -180,7 +180,7 @@ Money legos</strong>: Putting the concept "composability" another way, DeFi apps
                     
                     <div>
                         
-                             <!--<img src="https://aspen-fm.com/assets/images/mutualfunds1.jpg" alt="icon" style="margin:25px; text-align:center;">-->
+                             <!--<img src="https://transcopefinancing.com/assets/images/mutualfunds1.jpg" alt="icon" style="margin:25px; text-align:center;">-->
                              
                              
                     <p>

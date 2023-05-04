@@ -19,13 +19,13 @@
         <div class="first-child">
             <div class="overlay"></div>
             <div class="text">
-                <span class="title"> <span style="color: aqua;">Welcome to Aspen Financial Management</span>
-                    At Aspen Financial Management, we provide well-practiced and deft investing strategies with a
+                <span class="title"> <span style="color: aqua;">Welcome to Transcope Financing</span>
+                    At Transcope Financing, we provide well-practiced and deft investing strategies with a
                     straightforward market approach to help our clients navigate through the market volatility and making
                     their welfare our prime concern. We have created a user-friendly and state-of-the-art interactive tools
                     that help you plan and implement a better financial strategy that best reaches your goals. From managing
                     casual day-to-day activities to more life-changing choices. Some people search for financial experts
-                    looking for tinctures to ease their uncertainty. Aspen Financial Management is just the right place for
+                    looking for tinctures to ease their uncertainty. Transcope Financing is just the right place for
                     you, where the path to investing is not just promising, it’s better.</span>
 
             </div>
@@ -198,7 +198,7 @@
     <!--                    <div class="section-title text-center section-padding padding-bottom-0 wow slideInLeft" data-wow-duration="2s">-->
     <!--                        <div class="section-header">-->
     <!--                            <h2>Our awesome <span> plans</span></h2>-->
-    <!--                            <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--                            <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--                        </div>-->
     <!--                        <p></p>-->
     <!--                    </div>-->
@@ -320,7 +320,7 @@
     <!--                    </div>-->
     <!--                    <div class="contact-middel-details">-->
     <!--                        <p><i class="fa fa-phone"></i> +1 (305) 918‑1211</p>-->
-    <!--                        <p><i class="fa fa-envelope"></i> info@aspen-fm.com</p>-->
+    <!--                        <p><i class="fa fa-envelope"></i> info@transcopefinancing.com</p>-->
     <!--                    </div>-->
     <!--                </div>-->
     <!--            </div>-->
@@ -412,7 +412,7 @@
     <!--            <div class="col-md-12">-->
     <!--                <div class="section-header">-->
     <!--                    <h2>HOW <span> {{ $compd ? $compd->companyname : 'company name' }} </span> Works </h2>-->
-    <!--                    <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--                    <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--                </div>-->
     <!--            </div>-->
     <!--        </div>-->
@@ -421,7 +421,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054f0d33f03.png" alt="items">-->
+    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054f0d33f03.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Sign up</h6>-->
     <!--                            <p>Join our team of expert financial advisors and plan your finance.</p>-->
@@ -431,7 +431,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054fd409cda.png" alt="items">-->
+    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054fd409cda.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Invest</h6>-->
     <!--                            <p>Invest on a plan that suites your financial needs.</p>-->
@@ -441,7 +441,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054fef9a47a.png" alt="items">-->
+    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054fef9a47a.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Get Profits</h6>-->
     <!--                            <p>Get your Profit as stated in the plan, your account will credited automatically</p>-->
@@ -451,7 +451,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/6105506942c79.png" alt="items">-->
+    <!--                        <img src="https://transcopefinancing.com/assets/images/features/6105506942c79.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Compound</h6>-->
     <!--                            <p>You can Compound or Withdraw anytime.</p>-->
@@ -798,7 +798,7 @@
     <!-- section header start -->
     <!--          <div class="section-header wow bounceInDown" data-wow-duration="3s">-->
     <!--            <h2>Latest <span> Deposits & Withdraw</span></h2>-->
-    <!--             <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--             <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--          </div>-->
     <!-- section header end -->
     <!--        </div>-->
