@@ -118,7 +118,7 @@
             <button><a style="color: white;" href="{{ route('ourteam') }}"> Meet our financial team</a></button>
         </div>
         <div class="team-two">
-            <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/aspenpdf.pdf') }}"></object>
+            <!-- <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/aspenpdf.pdf') }}"></object> -->
         </div>
     </div>
 
@@ -165,10 +165,10 @@
             <span>EXPERTISE & GUIDANCE</span>
             <p>Discover how we’ll clearly define your vision</p>
         </div>
-        <video  controls id="vidmate">
+        <!-- <video  controls id="vidmate">
             <source src="./assets/images/aspen-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
     </div>
     <div class="people-state">
         <div class="people-state-kid mini">
