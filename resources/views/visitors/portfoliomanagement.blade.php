@@ -24,14 +24,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>Aspen Financial Portfolio Management</h1>
+                    <h1>Transcope Financial Portfolio Management</h1>
                     <p>Portfolio management is the process of picking the type and mix of investments, to achieve a specific investment goal, then monitoring and adjusting those investments over time.<br>We help you meet your longer-term goals with an investment strategy that’s specifically designed for you. And we’re transparent about the investment decisions we make for you because we believe an informed investor is a better investor and a happier client.
                  
 Much like a tailor who alters the hem, sleeves, and collar of a suit to fit an individual's proportions, we take a variety of factors into account to create a portfolio tailored to your needs.</p>
 
 <p><i>
    
-At Aspen, We Go Beyond just recommending an asset or investment strategy. We stay in touch with our clients as their needs evolve and market conditions deviate. We are invariably transparent about the investment decisions we recommend to investors because we believe an informed and well-educated investor is a better and happier client.</i>
+At Transcope, We Go Beyond just recommending an asset or investment strategy. We stay in touch with our clients as their needs evolve and market conditions deviate. We are invariably transparent about the investment decisions we recommend to investors because we believe an informed and well-educated investor is a better and happier client.</i>
 </p>
 
                 </div>
@@ -47,7 +47,7 @@ At Aspen, We Go Beyond just recommending an asset or investment strategy. We sta
                     <h3>Approach</h3>
                     <div><p><strong>Flexible</strong><br>
 Every investor has unique needs. Some want growth or cash flow, others want to avoid certain industries or companies. 
-At Aspen, investment management starts with you. We take the time to understand your long-term goals and specific needs. Only then can we create a tailored portfolio recommendation that focuses on your goals and adapts as the market changes.
+At Transcope, investment management starts with you. We take the time to understand your long-term goals and specific needs. Only then can we create a tailored portfolio recommendation that focuses on your goals and adapts as the market changes.
 </p>
 
 <p><strong>Comprehensive</strong><br>
@@ -61,7 +61,7 @@ Many American investors have an incomplete view of investing—focusing chiefly 
 You deserve a manager who does more than just pick stocks. {{$compd? $compd->companyname :"company name"}} meticulously analyzes markets, identifies the most attractive investment categories, and then chooses individual stocks, bonds, or other securities for your portfolio. Our thorough approach yields result over time.
 </p>
 <p><strong>Dynamic</strong><br>
-Many investment advisers stick to one style of investing, such as growth, momentum, or value. But what happens when their style falls out of favor? That’s when narrow specialization could hurt your portfolio returns and that could be described as PERIL. We at Aspen, prefer a flexible approach that can adapt to our forward-looking market views. 
+Many investment advisers stick to one style of investing, such as growth, momentum, or value. But what happens when their style falls out of favor? That’s when narrow specialization could hurt your portfolio returns and that could be described as PERIL. We at Transcope, prefer a flexible approach that can adapt to our forward-looking market views. 
 </p>
 
 
@@ -183,7 +183,7 @@ Investment categories cycle in and out of favor over time. Take emerging markets
 Research-Driven Agility</h3>
 <p>
 In our experience, no single strategy is always superior, and those who adopt such an approach can underperform as leadership styles continually rotate. At {{$compd? $compd->companyname :"company name"}}, we use an active investment approach, led by our Investment Policy Committee and in-house Research department, that helps us respond to market shifts and their impact on clients’ portfolios.<br>
-Aspen employs a large team of investment professionals who analyze regions, countries, sectors, and industries from a top-down perspective, as well as professionals who analyze individual securities from a fundamental perspective.<br>
+Transcope employs a large team of investment professionals who analyze regions, countries, sectors, and industries from a top-down perspective, as well as professionals who analyze individual securities from a fundamental perspective.<br>
 When managing investments for our clients, we believe this comprehensive research approach allows us to invest across a variety of areas in the market, using a flexible strategy designed to help capture potential opportunities for our clients consistent with their goals and objectives.
 Our active investment strategy is based upon our forward-looking view of markets. We make tactical adjustments along the way, moving client’s portfolios into the types of stocks and bonds we expect to perform best. This could mean: </p>
 <ul>

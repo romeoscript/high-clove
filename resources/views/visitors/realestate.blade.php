@@ -38,7 +38,7 @@
                         
                     </p>
                     <p>
-                        When you invest with Aspen, your dollars start working for you as you start to earn returns on your investments. As an investor, you are investing with a partner, not just a broker. Other broker platforms charge you unnecessary middleman fees. Our key differentiator is that we are a sponsor-direct platform. This means we own and manage all of our assets. Your investment is managed by us and your return will come under our ownership alone, removing several layers of third parties and their fees. We provide value by strategizing and leveraging industry knowledge of over forty years of experience to maximize your return.
+                        When you invest with Transcope, your dollars start working for you as you start to earn returns on your investments. As an investor, you are investing with a partner, not just a broker. Other broker platforms charge you unnecessary middleman fees. Our key differentiator is that we are a sponsor-direct platform. This means we own and manage all of our assets. Your investment is managed by us and your return will come under our ownership alone, removing several layers of third parties and their fees. We provide value by strategizing and leveraging industry knowledge of over forty years of experience to maximize your return.
                     </p>
                     <p>
                         Our team is involved throughout the whole investment lifecycle to ensure you are provided the managed investment you hoped for. We provide decades of successful real estate investing experience while we pursue the best results for our investments. The {{$compd? $compd->companyname :"company name"}} Growth REIT is designed to be a long-term investment and we aim to maintain several cash-flowing properties in the portfolio, generating revenue from rents.
@@ -104,7 +104,7 @@ This macro view is then followed by a thorough bottom-up approach that evaluates
                             <div class="col-md-8">
                                 
                                 <p>
-                                    Whispering Oaks Apartments is in the suburb of Conroe, Houston,Tx. When Aspen acquired the property it was a neglected Class C property.  We renovated all of the unit interiors with new appliances, light fixtures, plumbing fixtures, flooring and paint.  We also performed many enhancements to the exterior to improve curb appeal.  The property was a top three finalist for Houston Apartment Association’s “Property of the Year” in 2017.
+                                    Whispering Oaks Apartments is in the suburb of Conroe, Houston,Tx. When Transcope acquired the property it was a neglected Class C property.  We renovated all of the unit interiors with new appliances, light fixtures, plumbing fixtures, flooring and paint.  We also performed many enhancements to the exterior to improve curb appeal.  The property was a top three finalist for Houston Apartment Association’s “Property of the Year” in 2017.
                                     </p>
                                     <p>
 
@@ -165,20 +165,20 @@ Having exceeded all acquisition projections, {{$compd? $compd->companyname :"com
                             
                             
                             <div class="col-md-12">
-                                <h3>Understanding Aspen Financial Managment historical Real estate returns</h3>
+                                <h3>Understanding Transcope Financial Managment historical Real estate returns</h3>
                                 <p>
-                                    In 2019, Aspen Financial Managment produced a total net platform return of approximately 9.47%. But in many ways using a singular weighted average figure to represent the entirety of the platform’s performance oversimplifies the actual diverse experience of our investors on Aspen Financial Managment, as well as the fundamentals of how investing in real estate actually works.
+                                    In 2019, Transcope Financial Managment produced a total net platform return of approximately 9.47%. But in many ways using a singular weighted average figure to represent the entirety of the platform’s performance oversimplifies the actual diverse experience of our investors on Transcope Financial Managment, as well as the fundamentals of how investing in real estate actually works.
 </p><p>
-At the end of 2019, Aspen Financial Managment had more than 37,000 active investors. Those investors ranged from having spent as little as one day on the platform to more than five years. Collectively, they invested in portfolios composed of as many as 16 different eREITs and eFunds, as well as many project dependent notes (the predecessor of the eREITs), with investment objectives ranging from generating consistent income, to maximizing long-term growth, to a balanced blend of each. As a result, nearly every one of our investors had a unique return for their Aspen Financial Managment portfolio based on their specific set of individual circumstances.
+At the end of 2019, Transcope Financial Managment had more than 37,000 active investors. Those investors ranged from having spent as little as one day on the platform to more than five years. Collectively, they invested in portfolios composed of as many as 16 different eREITs and eFunds, as well as many project dependent notes (the predecessor of the eREITs), with investment objectives ranging from generating consistent income, to maximizing long-term growth, to a balanced blend of each. As a result, nearly every one of our investors had a unique return for their Transcope Financial Managment portfolio based on their specific set of individual circumstances.
 </p><p>
 
 While 9.47% was the net overall platform return, only a few investors earned exactly 9.47% — most earned either a little more or a little less, and some earned a lot more or a lot less.<br>
 
 What nearly all 37,000 investors had in common was this:<br>
 
-An investor’s unique return for the year was highly correlated to the amount of time they’d been investing with Aspen Financial Managment.
+An investor’s unique return for the year was highly correlated to the amount of time they’d been investing with Transcope Financial Managment.
 <br>
-Historically, the less time investors had been investing the lower their likely returns, while the more time they’d been investing, the higher their likely returns. We highlight this not because we believe it will always hold true in all circumstances, but because generally speaking we believe it can help investors understand what makes investing on Aspen Financial Managment different from investing in the stock market (of course, it is important to always remember that past performance cannot and does not predict future outcomes, which may vary greatly from what has occurred previously).
+Historically, the less time investors had been investing the lower their likely returns, while the more time they’d been investing, the higher their likely returns. We highlight this not because we believe it will always hold true in all circumstances, but because generally speaking we believe it can help investors understand what makes investing on Transcope Financial Managment different from investing in the stock market (of course, it is important to always remember that past performance cannot and does not predict future outcomes, which may vary greatly from what has occurred previously).
                                 </p>
                                 
                                  <p>

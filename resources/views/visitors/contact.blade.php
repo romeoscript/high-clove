@@ -104,8 +104,8 @@
 <section>
   <div class="container">
 
-<div class="google-maps" data-map-title="Aspen Wealth Management">
-  <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=30%20Cannon%20St,%20London,%20United%20Kingdom+(Aspen%20financials)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/wearable-gps/">wearable gps</a></iframe>
+<div class="google-maps" data-map-title="Transcope Wealth Management">
+  <iframe width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=30%20Cannon%20St,%20London,%20United%20Kingdom+(Transcope%20financials)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/wearable-gps/">wearable gps</a></iframe>
 </div>
 
 </div>

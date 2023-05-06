@@ -48,7 +48,7 @@
                                 high trading and investment volume for we are proud to help many customers to make revenue
                                 as we provide real-time market data from leading analytical agencies.</p>
                             <p>
-                                In Aspen, the security of your information& funds is of top most priority, hence we have
+                                In Transcope, the security of your information& funds is of top most priority, hence we have
                                 provided 2FA to provide an extra layer of security as well as an efficient capital
                                 protection policy that reduces the risk involved to a great extent. We are in control of our
                                 investors experience as we operate using our own proprietary sophisticated trading
@@ -74,13 +74,13 @@
                                 blue-chip stocks, smart contract applications, corporate finance transactions, delivering
                                 transactions on the best all-around investments services ranging from acquisitions, MBO,
                                 Growth and capital development, replacement capital, real estates funding and arranging long
-                                term financing. Whatever the investment capacity you have in mind, Aspen is committed to
+                                term financing. Whatever the investment capacity you have in mind, Transcope is committed to
                                 providing you with a ladder to successful investments as we bring billionaire strategies to
                                 the average man's doorstep. As at 31st December 2021, as a Fund, we had $165 Billion under
                                 our direction on behalf of 37,000 investor clients and over 1,350 advisers. In a world
                                 filled with financial uncertainties and inconsistencies, the pandemic that triggered a
                                 historic stock market sell-off in March, shut down large sectors of the economy, and
-                                swallowed up millions of jobs, Aspen Financial has been dedicated to being a global brand in
+                                swallowed up millions of jobs, Transcope Financial has been dedicated to being a global brand in
                                 financial management services performing expectedly with its forecasts from previous years.
                             </p>
                             <p>
@@ -88,7 +88,7 @@
                                 In addition, we have dedicated significant resources to the emerging field of behavioral
                                 finance to better understand not just the tools of Finance, but also how investors use these
                                 tools. Our research has led us to develop practical applications of behavioral finance in
-                                our portfolio management process, we urge you to join us on this path to success with Aspen
+                                our portfolio management process, we urge you to join us on this path to success with Transcope
                                 by creating a Portfolio with us now.
                             </p>
 

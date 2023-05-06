@@ -91,7 +91,7 @@ IDOs have some benefits that may make them more attractive than ICOs and IEOs: i
  </p>
 <p>
     <strong>
-What is ERC 20 and what does it provide for an Aspen Investor?</strong><br>
+What is ERC 20 and what does it provide for an Transcope Investor?</strong><br>
 The popular cryptocurrency and blockchain system Ethereum is based on the use of tokens, which can be bought, sold, or traded. Ethereum was launched in 2015, and since then it has become one of the driving forces behind the popularity of cryptocurrency. In the Ethereum system, tokens represent a diverse range of digital assets, such as vouchers, IOUs, or even real-world, tangible objects. Essentially, Ethereum tokens are smart contracts that make use of the Ethereum blockchain.
 </p>
 <p>

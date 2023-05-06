@@ -533,9 +533,9 @@ function googleTranslateElementInit() {
                     <a href="{{route('joinus')}}"><i class="fa fa-user-plus"></i> JOIN-US</a>
                     <!--<a href="https://transcopefinancing.com/register"><i class="fa fa-user-plus"></i> REGISTER</a>-->
                     <div class="support-bar-social-links">
-                                                    <a href="https://www.facebook.com/AspenFinancialManagement/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                    <a href="https://www.facebook.com/TranscopeFinancialManagement/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                                     <a href="https://www.linkedin.com/company/lifeinsurance1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                                    <a href="https://instagram.com/aspenfinancialmanagement?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                    <a href="https://instagram.com/Transcopefinancialmanagement?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                                     <a href="https://wa.me/message/{{$compd? $compd->companyphone:"company phone"}}"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                                             </div>
                 </div>
@@ -728,7 +728,7 @@ function googleTranslateElementInit() {
                 </div>
                 <div class="col-md-4 col-sm-9 wow bounceInDown" data-wow-duration="3s">
                     <p class="copyright-text">
-                        Copyright © {{$compd? $compd->companyname :"company name"}} 2021
+                        Copyright © {{$compd? $compd->companyname :"company name"}} <span id="date"></span>
                     </p>
                 </div>
                 <div class="col-md-4 col-sm-3 wow fadeInRight" data-wow-duration="3s">
@@ -862,6 +862,15 @@ jQuery('#raindrops').raindrops({color:'#fff',canvasHeight:5});
 jQuery('#raindrops-green').raindrops({color:'#03423a ',canvasHeight:5});
 
 </script>
+
+
+    <script>
+      const currentDate = new Date();
+      const fullYear = currentDate.getFullYear();
+
+      const dateElement = document.getElementById("date");
+      dateElement.innerText = fullYear;
+    </script>
 </body>
 
 <!-- Mirrored from transcopefinancing.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Nov 2021 12:26:43 GMT -->

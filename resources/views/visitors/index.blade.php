@@ -60,7 +60,7 @@
         <div class="service-2">
             <p>
                 We would be honored to learn more about your financial situation and discover the best way to tackle your
-                financial crisis or meet your investment goals. With roots as an institutional fund, Aspen Financial
+                financial crisis or meet your investment goals. With roots as an institutional fund, Transcope Financial
                 Management provides the same institutional caliber expertise to individuals. This means every investor gets
                 a disciplined investment strategy along with our unique, high-touch client service.
                 We help individuals and families assess their unique personal situations, plan for the long term and invest
@@ -113,12 +113,12 @@
             <p>Every member of our team focuses on making our clients and their families feel comfortable when discussing
                 financial decisions that can potentially be stressful and could have a great impact on their lives.
             </p>
-            {{-- <a href="{{ asset('assets/aspenpdf.pdf') }}">Download brochure</a> --}}
+            {{-- <a href="{{ asset('assets/Transcopepdf.pdf') }}">Download brochure</a> --}}
            
             <button><a style="color: white;" href="{{ route('ourteam') }}"> Meet our financial team</a></button>
         </div>
         <div class="team-two">
-            <!-- <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/aspenpdf.pdf') }}"></object> -->
+            <!-- <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/Transcopepdf.pdf') }}"></object> -->
         </div>
     </div>
 
@@ -166,7 +166,7 @@
             <p>Discover how we’ll clearly define your vision</p>
         </div>
         <!-- <video  controls id="vidmate">
-            <source src="./assets/images/aspen-vid.mp4" type="video/mp4">
+            <source src="./assets/images/Transcope-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video> -->
     </div>
@@ -624,7 +624,7 @@
                                             </ul>
                                             <p>
                                             <div>i have been with {{ $compd ? $compd->companyname : 'company name' }} for
-                                                six years now and all i can say is that Aspen has a great client
+                                                six years now and all i can say is that Transcope has a great client
                                                 relationship and service which allows us to connect, confide and also
                                                 collaborate in planning
                                                 and managing our finances through our Joint investment account. It has been

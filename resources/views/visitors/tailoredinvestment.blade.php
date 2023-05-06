@@ -26,7 +26,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <h1>{{$compd? $compd->companyname :"company name"}}'s Tailored Investment Approach</h1>
-                    <p>At Aspen, we help our clients to meet their long-term goals with an investment strategy specifically designed for them. We are transparent about the investment decisions we offer because we believe an informed investor is a happy client. <br>
+                    <p>At Transcope, we help our clients to meet their long-term goals with an investment strategy specifically designed for them. We are transparent about the investment decisions we offer because we believe an informed investor is a happy client. <br>
 Much like a tailor who alters the hem, sleeves, and collar of a suit to fit an individual's proportions, we take a variety of factors into account to create a portfolio tailored to your needs and any of your emergencies.
 
 </p>

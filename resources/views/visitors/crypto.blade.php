@@ -175,7 +175,7 @@
                             than 2,000 active clients.
                             <br>
                             Our Mining facility is being continuously upgraded for mining state-of-the-art Blockchain
-                            technology. Aspen’s computational performance is achieved with specifically designed mining rigs
+                            technology. Transcope’s computational performance is achieved with specifically designed mining rigs
                             that efficiently mine hashing algorithms for various cryptocurrencies such as Bitcoin, Ethereum,
                             Zcash, Dash, Monero, and others.
                             <br>
