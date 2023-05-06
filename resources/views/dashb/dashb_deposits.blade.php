@@ -33,8 +33,8 @@
                     <option selected class="form-control">Select a Payment Method</option>
                     <option class="form-control" value="btc_address">BTC</option>
                     <option class="form-control" value="eth">ETH</option>
-                    <option class="form-control" value="usdt">USDT (ERC20 NETWORK)</option>
-                    <option class="form-control" value="paypal">Paypal</option>
+                    <option class="form-control" value="usdt">USDT (TRC20 NETWORK)</option>
+                    <!-- <option class="form-control" value="paypal">Paypal</option> -->
                     <option class="form-control" value="xrp">XRP</option>
                     {{-- <option value="usdt">USDT</option> --}}
                 </select>

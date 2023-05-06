@@ -30,7 +30,7 @@ class adminController extends Controller
 {
 
 
-    public  $website = "jameschinedu72020@gmail.com";
+    public  $website = "support@transcopefinancing.com ";
 
     public function __construct()
     {

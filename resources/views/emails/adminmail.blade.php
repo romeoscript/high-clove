@@ -143,7 +143,7 @@
 										</tr>
 									</table>
 
-									<table width='100%' border='0' cellspacing='0' cellpadding='0'>
+									<!-- <table width='100%' border='0' cellspacing='0' cellpadding='0'>
 										<tr>
 											<td style='padding-bottom: 20px;'>
 												<table width='100%' border='0' cellspacing='0' cellpadding='0'>
@@ -167,7 +167,7 @@
 												</table>
 											</td>
 										</tr>
-									</table>
+									</table> -->
 									<table width='100%' border='0' cellspacing='0' cellpadding='0'>
 										<tr>
 											<td class='p30-15' style='padding: 50px 30px;' bgcolor='#ffffff'>
