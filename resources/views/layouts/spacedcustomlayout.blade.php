@@ -488,6 +488,7 @@ video {
 		}
 		
     </style>
+    <script src="//code.tidio.co/2uc3htrmnjtvmjzbggc36csjyu87a1rm.js" async></script>
 </head>
 
 <body  data-spy="scroll">
@@ -532,12 +533,12 @@ function googleTranslateElementInit() {
                     <a href="{{route('login')}}"><i class="fa fa-user"></i> LOGIN </a>
                     <a href="{{route('joinus')}}"><i class="fa fa-user-plus"></i> JOIN-US</a>
                     <!--<a href="https://transcopefinancing.com/register"><i class="fa fa-user-plus"></i> REGISTER</a>-->
-                    <div class="support-bar-social-links">
+                    <!-- <div class="support-bar-social-links">
                                                     <a href="https://www.facebook.com/TranscopeFinancialManagement/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                                     <a href="https://www.linkedin.com/company/lifeinsurance1"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                                     <a href="https://instagram.com/Transcopefinancialmanagement?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                                                     <a href="https://wa.me/message/{{$compd? $compd->companyphone:"company phone"}}"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                                            </div>
+                      </div> -->
                 </div>
             </div>
         </div>

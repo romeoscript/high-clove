@@ -786,9 +786,7 @@ $('document').ready(function () {
       dateElement.innerText = "Copyright ©  " + fullYear;
     </script>
     
-    <!--Start of Tawk.to Script-->
-
-<!--End of Tawk.to Script-->    <!-- End custom js for this page -->
+    <script src="//code.tidio.co/2uc3htrmnjtvmjzbggc36csjyu87a1rm.js" async></script>
   </body>
 
 </html>

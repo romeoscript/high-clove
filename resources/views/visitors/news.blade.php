@@ -48,9 +48,7 @@
                 </div>
            </div>
         </section>
-        <div class="widget2">
-          <iframe width="100%" style="overflow: hidden;" height="1300" src="https://rss.app/embed/v1/magazine/tdnlZjbvYRo3y4Ym" frameborder="0"></iframe>
-        </div>
+       <!-- 24-7 Press Release Newswire Landing Page Widget Code Starts Here --> <script type="text/javascript" src="https://news.24-7pressrelease.com/247pr-news-widget.js?widgettitle=News Provided by 24-7PressRelease.com&amp;categories=106,107,333,334,335,489,337,108,300,338,109,110,139,339,171,111,112,340,341,113,342,343,114,344,115,345,319,116,347,348,&amp;showRelease=1&amp;width=auto&amp;headlinebold=1&amp;headlinesonly=0&amp;headlinecolor=2d57a1&amp;briefcolor=666666&amp;textcolor=333333&amp;typeface=arial&amp;fontsize=11&amp;width=auto&amp;headlinesepstyle=dotted&amp;showimages=1&amp;numstories=20&amp;bgcolor=ffffff&amp;urldest=247pr"></script> <!-- 24-7 Press Release Newswire Landing Page Widget Code Ends Here --> 
         <div class="clearfix"></div>
         <div class="clearfix"></div>
         <div class="clearfix"></div>
