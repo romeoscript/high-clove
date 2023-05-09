@@ -113,7 +113,7 @@ in addition to your invested capital, which amounts to $150,000.
                                         <ul>
                                             <li><p><i class="fa fa-check-square"></i> -Fill a form (online or offline).</p></li><br>
                                             <li><p><i class="fa fa-check-square"></i> -Make payment.</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Send the duly completed form and evidence of payment to support@transcopefinancing capital.com</p></li><br>
+                                            <li><p><i class="fa fa-check-square"></i> -Send the duly completed form and evidence of payment to support@transcopefinancing.com</p></li><br>
                                             <li><p><i class="fa fa-check-square"></i> -Payment Receipt sent to your mail.</p></li><br>
                                         </ul>
 

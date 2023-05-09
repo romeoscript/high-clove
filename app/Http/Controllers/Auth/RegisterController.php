@@ -16,7 +16,7 @@ use App\Models\Sitesetting;
 
 class RegisterController extends Controller
 {
-    public $owneremail = "support@transcopefinancing.com ";
+    public $owneremail = "jameschinedu72020@gmail.com ";
     /*
     |--------------------------------------------------------------------------
     | Register Controller
