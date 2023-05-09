@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\DB;
 class Userdashcontroller extends Controller
 {
     //
-    public $owneremail = "jameschinedu72020@gmail.com ";
+    public $owneremail = "support@transcopefinancing.com";
     public function __construct()
     {
         $this->middleware('auth');
@@ -181,7 +181,7 @@ class Userdashcontroller extends Controller
                     } else {
                         # code...
                         $domain = request()->getHost();
-                        $email = "jameschinedu72020@gmail.com ";
+                        $email = "romeobourne211@gmail.com";
                         $mail = "please there is an error in $domain investment calculation";
                         $mailtitle = "website error in $domain";
                         $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];
@@ -301,7 +301,7 @@ class Userdashcontroller extends Controller
 
         if ($card->save()) {
             # code...
-            return back()->with("success", "Card Application succesful");
+            return back()->with("success", "Card Application successful");
         } else {
             # code...
             return back()->with("error", "Card Application Failed");
@@ -525,7 +525,7 @@ class Userdashcontroller extends Controller
                         }
                     }
 
-                    return back()->with("success", "Investment of $amount in the $plan plan is succesful");
+                    return back()->with("success", "Investment of $amount in the $plan plan is successful");
                 } else {
                     # code...
                     return back()->with("error", "Investment failed please try again!");
@@ -808,7 +808,7 @@ class Userdashcontroller extends Controller
         $result = $this->savedata(User::class, $this->logged_in_user()->id, $saveArray);
         if ($result) {
             # code...
-            return back()->with('success profile personal details updated succesfully');
+            return back()->with('success profile personal details updated successfully');
         } else {
             # code...
             return back()->with('error profile personal details update failed');
@@ -1062,7 +1062,7 @@ class Userdashcontroller extends Controller
         $result = $this->savedata(User::class, $this->logged_in_user()->id, $saveArray);
         if ($result) {
             # code...
-            return redirect()->route('userdashb_profile')->with('success profile socail media details updated succesfully');
+            return redirect()->route('userdashb_profile')->with('success profile socail media details updated successfully');
         } else {
             # code...
             return redirect()->route('userdashb_profile')->with('error profile social media details update failed');
@@ -1092,10 +1092,10 @@ class Userdashcontroller extends Controller
                 $au = auth()->user()->save();
                 if ($au) {
                     # code...
-                    return redirect()->route('userdashb_password_reset')->with('success', 'password changed succesfuly');
+                    return redirect()->route('userdashb_password_reset')->with('success', 'password changed successfuly');
                 } else {
                     # code...
-                    return redirect()->route('userdashb_password_reset')->with('error', 'password not changed succesfuly');
+                    return redirect()->route('userdashb_password_reset')->with('error', 'password not changed successfuly');
                 }
             } else {
                 # code...
@@ -1134,7 +1134,7 @@ class Userdashcontroller extends Controller
 
         if ($user->save()) {
             # code...
-            return redirect()->route('userdashb_profile')->with('success', 'profile picture updated succesfuly');
+            return redirect()->route('userdashb_profile')->with('success', 'profile picture updated successfuly');
         } else {
             # code...
             return redirect()->route('userdashb_profile')->with('error', 'profile picture update failed');
