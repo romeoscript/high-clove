@@ -13,6 +13,232 @@
         }
 
     }
+
+.price_tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #14ae85;
+}
+.price_tag .wrapper{
+  max-width: 1090px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.price_tag .wrapper .table{
+  background: #fff;
+  width: calc(33% - 20px);
+  padding: 30px 30px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.price_tag .table .price-section{
+  display: flex;
+  justify-content: center;
+}
+.price_tag .table .price-area{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.price_tag .price-area .inner-area{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  line-height: 117px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.price_tag .price-area .inner-area .text{
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  top: -10px;
+  left: 17px;
+}
+.price_tag .price-area .inner-area .price{
+  font-size: 45px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+.price_tag .table .package-name{
+  width: 100%;
+  height: 2px;
+  margin: 35px 0;
+  position: relative;
+}
+.price_tag .table .package-name::before{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  font-weight: 500;
+  background: #fff;
+  padding: 0 15px;
+  transform: translate(-50%, -50%);
+}
+.price_tag .table .features li{
+  margin-bottom: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.price_tag .features li .list-name{
+  font-size: 17px;
+  font-weight: 400;
+}
+.price_tag .features li .icon{
+  font-size: 15px;
+}
+.price_tag  .features li .icon.check{
+  color: #2db94d;
+}
+.price_tag  .features li .icon.cross{
+  color: #cd3241;
+}
+.price_tag  .table .btn{
+  width: 100%;
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
+.price_tag .table .btn button{
+  width: 80%;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.price_tag .table .btn button:hover{
+  border-radius: 5px;
+}
+.price_tag .basic .features li::selection{
+  background: #ffd861;
+}
+.price_tag .basic ::selection,
+.price_tag .basic .price-area,
+.price_tag .basic .inner-area{
+  background: #ffd861;
+}
+.price_tag .basic .btn button{
+  border: 2px solid #ffd861;
+  background: #fff;
+  color: #ffd861;
+}
+.price_tag .basic .btn button:hover{
+  background: #ffd861;
+  color: #fff;
+}
+.price_tag .premium ::selection,
+.price_tag .premium .price-area,
+.price_tag .premium .inner-area,
+.price_tag .premium .btn button{
+  background: #a26bfa;
+}
+.price_tag .premium .btn button:hover{
+  background: #833af8;
+}
+.price_tag .ultimate ::selection,
+.price_tag .ultimate .price-area,
+.price_tag .ultimate .inner-area{
+  background: #43ef8b;
+}
+.price_tag .ultimate .btn button{
+  border: 2px solid #43ef8b;
+  color: #43ef8b;
+  background: #fff;
+}
+.price_tag .ultimate .btn button:hover{
+  background: #43ef8b;
+  color: #fff;
+}
+.price_tag .basic .package-name{
+  background: #ffecb3;
+}
+.price_tag .premium .package-name{
+  background: #d0b3ff;
+}
+.price_tag .ultimate .package-name{
+  background: #baf8d4;
+}
+.price_tag .basic .package-name::before{
+  content: "Basic";
+}
+.price_tag .premium .package-name::before{
+  content: "Premium";
+  font-size: 24px;
+}
+.price_tag .ultimate .package-name::before{
+  
+  font-size: 24px;
+}
+@media (max-width: 1020px) {
+    .price_tag .wrapper .table{
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 698px) {
+    .price_tag .wrapper .table{
+    width: 100%;
+  }
+}
+::selection{
+  color: #fff;
+}
+.price_tag .table .ribbon{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  overflow: hidden;
+}
+.price_tag .table .ribbon::before,
+.price_tag .table .ribbon::after{
+  position: absolute;
+  content: "";
+  z-index: -1;
+  display: block;
+  border: 7px solid #4606ac;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.price_tag .table .ribbon::before{
+  top: 0px;
+  right: 15px;
+}
+.price_tag .table .ribbon::after{
+  bottom: 15px;
+  left: 0px;
+}
+.price_tag .table .ribbon span{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: rotate(-45deg);
+  width: 200px;
+  background: #a26bfa;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
 </style>
 @section('body')
     <div class="header-section">
@@ -122,6 +348,109 @@
         </div>
     </div>
 
+
+<section class="price_tag">
+    <div class="wrapper">
+    
+  
+        {{-- <div class="table basic">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">29</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">One Selected Template</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">100% Responsive Design</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Credit Remove Permission</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Lifetime Template Updates</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button><a href="{{ route('joinus') }}"> GET STARTED</a></button></div>
+        </div>
+        <div class="table premium">
+          <div class="ribbon"><span>Recommend</span></div>
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">59</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"></div>
+          <ul class="features">
+            <li>
+              <span class="list-name">Five Existing Templates</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">100% Responsive Design</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Credit Remove Permission</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Lifetime Template Updates</span>
+              <span class="icon cross"><i class="fas fa-times"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button>Purchase</button></div>
+        </div> --}}
+        @if ($investmentplans)
+        @foreach ($investmentplans as $plan)
+        <div class="table ultimate">
+          <div class="price-section">
+            <div class="price-area">
+              <div class="inner-area">
+                <span class="text">$</span>
+                <span class="price">{{ $price->minimum }}</span>
+              </div>
+            </div>
+          </div>
+          <div class="package-name"> {{ $price->name }}</div>
+          <ul class="features">
+            <li>
+              <span class="list-name"> {{ $price->noofrepeat }}+ Duration</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name"> Total profit of   {{ $price->percentage * $price->noofrepeat }}%</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Referal Bonus of {{ $price->refpercent}}%</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+            <li>
+              <span class="list-name">Maximum of ${{ $price->maximum }}</span>
+              <span class="icon check"><i class="fas fa-check"></i></span>
+            </li>
+          </ul>
+          <div class="btn"><button><a href="{{ route('joinus') }}"> GET STARTED</a></button></div>
+        </div>
+        @endforeach
+      @endif
+      </div>
+</section>
+
     <div class="process-section">
         <div class="process-content">
             <div class="process-image">
@@ -185,285 +514,9 @@
 
         </div>
     </div>
-    <!--main menu section end-->
 
 
-    <!--trustedby95000sectionend-->
 
-    <!--start investment plan-->
-    <!--    <section class="section-background">-->
-    <!--        <div class="container">-->
-    <!--            <div class="row">-->
-    <!--                <div class="col-md-12">-->
-    <!--                    <div class="section-title text-center section-padding padding-bottom-0 wow slideInLeft" data-wow-duration="2s">-->
-    <!--                        <div class="section-header">-->
-    <!--                            <h2>Our awesome <span> plans</span></h2>-->
-    <!--                            <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
-    <!--                        </div>-->
-    <!--                        <p></p>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-    <!--            <div class="row">-->
-    <!--                -->
-    <!--                    <div class="col-md-3 col-sm-6 pricing-list-botom-margin wow zoomIn" data-wow-duration="3s">-->
-    <!-- Pricing  List1 Start -->
-    <!--                        <div class="pricing-list1">-->
-    <!--                            <div class="pricing-header1">-->
-    <!--                                <h5>Wealth-Builder</h5>-->
-    <!--                                <p>Monthly 13% for 24 times</p>-->
-    <!--                            </div>-->
-    <!--                            <div class="pricing-info1">-->
-    <!--                                <ul>-->
-    <!--                                    <li> <p>for <span class="color-text">24</span> times</p></li>-->
-    <!--                                    <li><p> <span class="color-text">13%</span> roi each time</p></li>-->
-    <!--                                </ul>-->
-    <!--                            </div>-->
-    <!--                            <div class="price-range">-->
-    <!--                                            <div class="row">-->
-    <!--                                                <div class="col-md-6 text-left col-sm-6 col-xs-6">-->
-    <!--                                                    <div class="min-price">-->
-    <!--                                                        <h6>Minimum<span class="color-text">$ 1000</span></h6>-->
-    <!--                                                    </div>-->
-    <!--                                                </div>-->
-    <!--                                                <div class="col-md-6 text-right col-sm-6 col-xs-6">-->
-    <!--                                                    <div class="min-price">-->
-    <!--                                                        <h6>Maximum<span class="color-text">$ 99999</span></h6>-->
-    <!--                                                    </div>-->
-    <!--                                                </div>-->
-    <!--                                            </div>-->
-    <!--                            </div>-->
-    <!--                            <div class="invest-type__profit plan__value--1">-->
-    <!--                                <input type="text" value="$ 50499.5" class="custom-input invest-type__profit--val" data-slider=".slider-input--1" style="color:#FFF; font-size: 25px">-->
-    <!--                                <input type="hidden" name="amount" value="50499.5" class=" slider-input slider-input--1" data-perday="13" data-peryear="24" data-min="1000" data-max="99999" data-dailyprofit=".daily-profit-1" data-totalprofit=".total-profit-1 " data-valuetag=".plan__value--1 .invest-type__profit--val"/>-->
-    <!--                            </div>-->
-    <!--                            <input type="hidden" name="plan_id" value="1">-->
-    <!--                            <div class="price-range">-->
-    <!--                                <div class="row">-->
-    <!--                                    <div class="col-md-6 text-left col-sm-6 col-xs-6 invest-type__calc invest-type__calc--daily">-->
-    <!--                                        <div class="min-price">-->
-    <!--                                            <h6>per time<span class="color-text"><b class="daily-profit-1">$ 6564.935.0</b></span></h6>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                    <div class="col-md-6 text-right col-sm-6 col-xs-6 invest-type__calc invest-type__calc--total">-->
-    <!--                                        <div class="min-price">-->
-    <!--                                            <h6>Total Return<span class="color-text"><b class="total-profit-1">$ 157558.44.0</b></span></h6>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-    <!--                            </div>-->
-
-    <!--<a href="pricing-list.html">Order Now!</a>-->
-    <!--                        </div>-->
-    <!-- Pricing List1 End -->
-    <!--                    </div>-->
-    <!--            -->
-    <!--                    <div class="col-md-3 col-sm-6 pricing-list-botom-margin wow zoomIn" data-wow-duration="3s">-->
-    <!-- Pricing  List1 Start -->
-    <!--                        <div class="pricing-list1">-->
-    <!--                            <div class="pricing-header1">-->
-    <!--                                <h5>PREMIUM</h5>-->
-    <!--                                <p>Monthly 18% for 24 times</p>-->
-    <!--                            </div>-->
-    <!--                            <div class="pricing-info1">-->
-    <!--                                <ul>-->
-    <!--                                    <li> <p>for <span class="color-text">24</span> times</p></li>-->
-    <!--                                    <li><p> <span class="color-text">18%</span> roi each time</p></li>-->
-    <!--                                </ul>-->
-    <!--                            </div>-->
-    <!--                            <div class="price-range">-->
-    <!--                                            <div class="row">-->
-    <!--                                                <div class="col-md-6 text-left col-sm-6 col-xs-6">-->
-    <!--                                                    <div class="min-price">-->
-    <!--                                                        <h6>Minimum<span class="color-text">$ 100000</span></h6>-->
-    <!--                                                    </div>-->
-    <!--                                                </div>-->
-    <!--                                                <div class="col-md-6 text-right col-sm-6 col-xs-6">-->
-    <!--                                                    <div class="min-price">-->
-    <!--                                                        <h6>Maximum<span class="color-text">$ 123456780987654321</span></h6>-->
-    <!--                                                    </div>-->
-    <!--                                                </div>-->
-    <!--                                            </div>-->
-    <!--                            </div>-->
-    <!--                            <div class="invest-type__profit plan__value--2">-->
-    <!--                                <input type="text" value="$ 6.1728390493877E+16" class="custom-input invest-type__profit--val" data-slider=".slider-input--2" style="color:#FFF; font-size: 25px">-->
-    <!--                                <input type="hidden" name="amount" value="6.1728390493877E+16" class=" slider-input slider-input--2" data-perday="18" data-peryear="24" data-min="100000" data-max="123456780987654321" data-dailyprofit=".daily-profit-2" data-totalprofit=".total-profit-2 " data-valuetag=".plan__value--2 .invest-type__profit--val"/>-->
-    <!--                            </div>-->
-    <!--                            <input type="hidden" name="plan_id" value="2">-->
-    <!--                            <div class="price-range">-->
-    <!--                                <div class="row">-->
-    <!--                                    <div class="col-md-6 text-left col-sm-6 col-xs-6 invest-type__calc invest-type__calc--daily">-->
-    <!--                                        <div class="min-price">-->
-    <!--                                            <h6>per time<span class="color-text"><b class="daily-profit-2">$ 1.1111110288898E+16.0</b></span></h6>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                    <div class="col-md-6 text-right col-sm-6 col-xs-6 invest-type__calc invest-type__calc--total">-->
-    <!--                                        <div class="min-price">-->
-    <!--                                            <h6>Total Return<span class="color-text"><b class="total-profit-2">$ 2.6666664693355E+17.0</b></span></h6>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-    <!--                            </div>-->
-
-    <!--<a href="pricing-list.html">Order Now!</a>-->
-    <!--                        </div>-->
-    <!-- Pricing List1 End -->
-    <!--                    </div>-->
-    <!--            -->
-    <!--            </div>-->
-    <!--        <div class="row section-padding padding-bottom-0">-->
-    <!--            <div class="col-md-6 col-sm-6">-->
-    <!--                <div class="contact-middel-info wow bounceInLeft" data-wow-duration="2s">-->
-    <!--                    <div class="contact-middel-title">-->
-    <!--                        <h4>Have a question <span>we are here to help!</span></h4>-->
-    <!--                    </div>-->
-    <!--                    <div class="contact-middel-details">-->
-    <!--                        <p><i class="fa fa-phone"></i> +1 (305) 918‑1211</p>-->
-    <!--                        <p><i class="fa fa-envelope"></i> info@transcopefinancing.com</p>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--            <div class="col-md-6 col-sm-6">-->
-    <!--                <div class="discunt-middel-text wow bounceInRight" data-wow-duration="2s">-->
-    <!--                    <h3>5<i class="fa fa-percent"></i> <br /> referral <br /> commission</h3>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        </div>-->
-    <!--</section>-->
-    <!--end start investment plan-->
-    <!--Our Top Investor Section Start-->
-    <!--<div class="clearfix"></div>-->
-
-    <!--Our Top Investor Section Start-->
-
-    <!--<div class="clearfix"></div>-->
-    <!--staticies sectioin-->
-    <!--<section class="sale-section section-padding">-->
-    <!--      <div class="container">-->
-    <!--        <div class="row">-->
-    <!--          <div class="col-md-3">-->
-    <!-- Counter List -->
-    <!--            <div class="counter-list wow shake" data-wow-duration="2s">-->
-    <!-- Counter Item -->
-    <!--              <div class="counter-item">-->
-    <!--                <div class="counter-thumb"><i class="fa fa-user"></i><p class="counter">48</p></div>-->
-    <!--                  <div class="counter-content">-->
-    <!--                      <p>Total User</p>-->
-    <!--                  </div>-->
-    <!--              </div>-->
-    <!-- Counter Item -->
-    <!--            </div>-->
-    <!-- Counter List -->
-    <!--          </div>-->
-    <!--          <div class="col-md-3">-->
-    <!-- Counter List -->
-    <!--            <div class="counter-list wow shake" data-wow-duration="2s" data-wow-delay="2s">-->
-    <!-- Counter Item -->
-    <!--              <div class="counter-item">-->
-    <!--                <div class="counter-thumb"> <i class="fa fa-recycle"></i><p class="counter">0</p></div>-->
-    <!--                  <div class="counter-content">-->
-    <!--                   <p>Total Repeat</p>-->
-    <!--                  </div>-->
-    <!--              </div>-->
-    <!-- Counter Item -->
-    <!--            </div>-->
-    <!-- Counter List -->
-    <!--          </div>-->
-    <!--          <div class="col-md-3">-->
-    <!-- Counter List -->
-    <!--            <div class="counter-list wow shake" data-wow-duration="2s" data-wow-delay="4s">-->
-    <!-- Counter Item -->
-    <!--              <div class="counter-item">-->
-    <!--                <div class="counter-thumb"> <i class="fa fa-cloud-download"></i><p class="counter">1294801</p></div>-->
-    <!--                  <div class="counter-content">-->
-    <!--                     <p>Total Deposit</p>-->
-    <!--                  </div>-->
-    <!--              </div>-->
-    <!-- Counter Item -->
-    <!--            </div>-->
-    <!-- Counter List -->
-    <!--          </div>-->
-    <!--          <div class="col-md-3">-->
-    <!-- Counter List -->
-    <!--            <div class="counter-list wow shake" data-wow-duration="2s" data-wow-delay="6s">-->
-    <!-- Counter Item -->
-    <!--              <div class="counter-item">-->
-    <!--                <div class="counter-thumb"><i class="fa fa-cloud-upload"></i><p class="counter">1000</p></div>-->
-    <!--                  <div class="counter-content">-->
-    <!--                    <p>Total Withdraw</p>-->
-    <!--                  </div>-->
-    <!--              </div>-->
-    <!-- Counter Item -->
-    <!--            </div>-->
-    <!-- Counter List -->
-    <!--          </div>-->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!-- </section>-->
-    <!--staticies sectioin end-->
-    <div class="clearfix"></div>
-
-    <!-- Circle Section Start -->
-    <!--<section  class="circle-section section-padding wow slideInUp" data-wow-duration="2s">-->
-    <!--    <div class="container">-->
-    <!--        <div class="row">-->
-    <!--            <div class="col-md-12">-->
-    <!--                <div class="section-header">-->
-    <!--                    <h2>HOW <span> {{ $compd ? $compd->companyname : 'company name' }} </span> Works </h2>-->
-    <!--                    <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <!--        <div class="row">-->
-    <!--            -->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054f0d33f03.png" alt="items">-->
-    <!--                        <div class="circle-content">-->
-    <!--                            <h6>Sign up</h6>-->
-    <!--                            <p>Join our team of expert financial advisors and plan your finance.</p>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            -->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054fd409cda.png" alt="items">-->
-    <!--                        <div class="circle-content">-->
-    <!--                            <h6>Invest</h6>-->
-    <!--                            <p>Invest on a plan that suites your financial needs.</p>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            -->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://transcopefinancing.com/assets/images/features/61054fef9a47a.png" alt="items">-->
-    <!--                        <div class="circle-content">-->
-    <!--                            <h6>Get Profits</h6>-->
-    <!--                            <p>Get your Profit as stated in the plan, your account will credited automatically</p>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            -->
-    <!--                <div class="col-md-3">-->
-    <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://transcopefinancing.com/assets/images/features/6105506942c79.png" alt="items">-->
-    <!--                        <div class="circle-content">-->
-    <!--                            <h6>Compound</h6>-->
-    <!--                            <p>You can Compound or Withdraw anytime.</p>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            -->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
-    <!-- Circle Section End -->
-    <!--testimonial section start-->
     <section class="people-say-section section-padding">
         <div class="container">
             <div class="row">
