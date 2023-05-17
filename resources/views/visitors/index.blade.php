@@ -37,6 +37,7 @@
   text-align: center;
   padding: 15px 30px  30px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  margin: 0 1rem;
 }
 .content1 .card .top{
   height: 130px;
