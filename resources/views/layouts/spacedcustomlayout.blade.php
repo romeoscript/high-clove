@@ -493,21 +493,7 @@ video {
 
 <body  data-spy="scroll">
 <!-- Start Pre-Loader-->
-<div class="col-lg-12 col-md-12">
-  <div class="top-header-contact-info text-end">
-      <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
-      
-      
-      <style>
-          
-          .yt-wrapper yt-wrapper_align_right, .yt-servicelink {display: none !important;
-              
-          }
-          
-      </style>
-      
-  </div>
-</div>
+
 <div id="preloader">
     <div data-loader="circle-side"></div>
 
