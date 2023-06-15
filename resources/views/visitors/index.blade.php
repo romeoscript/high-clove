@@ -262,7 +262,11 @@ background: #d0f9fb;
       <div class="info">Limited features you will get on this package or plan</div>
       <div class="details">
         <div class="one">
-          <span>{{ $price->noofrepeat }}+ Duration</span>
+          <span>{{ $price->noofrepeat }}+ Days Duration</span>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="one">
+          <span>Daily profit of   {{ $price->percentage}}%</span>
           <i class="fas fa-check"></i>
         </div>
         <div class="one">

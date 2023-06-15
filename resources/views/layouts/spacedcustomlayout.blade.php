@@ -493,11 +493,26 @@ video {
 
 <body  data-spy="scroll">
 <!-- Start Pre-Loader-->
-
+<div class="col-lg-12 col-md-12">
+  <div class="top-header-contact-info text-end">
+      <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
+      
+      
+      <style>
+          
+          .yt-wrapper yt-wrapper_align_right, .yt-servicelink {display: none !important;
+              
+          }
+          
+      </style>
+      
+  </div>
+</div>
 <div id="preloader">
     <div data-loader="circle-side"></div>
 
 </div>
+
 <!-- End Preload -->
 <div class="animation-element">
 <!-- End Pre-Loader -->
@@ -683,7 +698,21 @@ function googleTranslateElementInit() {
 
 
 
-
+<div class="col-lg-12 col-md-12">
+  <div class="top-header-contact-info text-end">
+      <div id="ytWidget" style="float: right !important;     position: fixed; z-index: 1000;right: 10px;bottom: 100px;"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=true" type="text/javascript"></script>
+      
+      
+      <style>
+          
+          .yt-wrapper yt-wrapper_align_right, .yt-servicelink {display: none !important;
+              
+          }
+          
+      </style>
+      
+  </div>
+</div>
 <!--footer area start-->
 <footer id="contact" class="footer-area">
     <!--footer area start-->
@@ -741,6 +770,7 @@ function googleTranslateElementInit() {
     <div id="back-to-top" class="scroll-top back-to-top" data-original-title="" title="" >
         <i class="fa fa-angle-up"></i>
     </div>
+    
 </footer>
 <style type="text/css">
     li.export-main {
