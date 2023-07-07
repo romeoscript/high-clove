@@ -181,7 +181,7 @@
 														<td class='text-footer1 pb10' style='color:#999999; font-family:Noto Sans, Arial,sans-serif; font-size:16px; line-height:20px; text-align:center; padding-bottom:10px;'>Transcopefinancing- Recommended by Google</td>
 													</tr>
 													<tr>
-														<td class='text-footer2 pb30' style='color:#999999; font-family:Noto Sans, Arial,sans-serif; font-size:12px; line-height:26px; text-align:center; padding-bottom:30px;'>United Kingdom</td>
+														<td class='text-footer2 pb30' style='color:#999999; font-family:Noto Sans, Arial,sans-serif; font-size:12px; line-height:26px; text-align:center; padding-bottom:30px;'> Vancouver Canada </td>
 													</tr>
 													<tr>
 														<td class='text-footer3' style='color:#c0c0c0; font-family:Noto Sans, Arial,sans-serif; font-size:12px; line-height:18px; text-align:center;'><a href='#' target='_blank' class='link3-u' style='color:#c0c0c0; text-decoration:underline;'><span class='link3-u' style='color:#c0c0c0; text-decoration:underline;'>Unsubscribe</span></a> from this mailing list.</td>
