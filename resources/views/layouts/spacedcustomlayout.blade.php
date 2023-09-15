@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Hightrove is a UK-based investment manager with offices in USA, Canada and Switzerland. We are a dynamic group whose main focus is to provide our clients with the best possible service">
+        content="highclove is a UK-based investment manager with offices in USA, Canada and Switzerland. We are a dynamic group whose main focus is to provide our clients with the best possible service">
     <meta name="keywords"
-        content="Hightrove, managed investments, investment, crypto investment, btc, eth, ">
+        content="highclove, managed investments, investment, crypto investment, btc, eth, ">
     <meta name="author" content="">
     <title> {{ $compd ? $compd->companyname : 'company name' }} | Smartly Managed Investments.</title>
     <link rel="shortcut icon" href="{{ asset('frontend/assets/img/favicon.jpg') }}">
@@ -31,7 +31,7 @@
                     </div>
                     <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
                         <div class="offcanvas-header d-lg-none">
-                            <h3 class="text-white fs-30 mb-0">Hightrove</h3>
+                            <h3 class="text-white fs-30 mb-0">highclove</h3>
                             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -114,7 +114,7 @@
                 <div class="col-md-5">
                     <div class="widget">
                         <img class="mb-4" src="frontend/assets/img/logo11.png" width="200" alt="" />
-                        <p class="mb-4">Hightrove is a UK-based investment manager with offices in USA, Canada and
+                        <p class="mb-4">highclove is a UK-based investment manager with offices in USA, Canada and
                             Switzerland. We are a dynamic group whose
                             main focus is to provide our clients with the best possible service, by applying a
                             systematic

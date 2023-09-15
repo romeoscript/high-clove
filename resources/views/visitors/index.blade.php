@@ -974,7 +974,7 @@
             <!--/column -->
             <div class="col-lg-6">
                 <h2 class="display-4 mb-3">COMPREHENSIVE WEALTH MANAGEMENT</h2>
-                <p class="">At Hightrove Finance, our customers are put first at all times. Your own Client Relationship Officer is there for you
+                <p class="">At highclove Finance, our customers are put first at all times. Your own Client Relationship Officer is there for you
                 every step of the way whether you're delving into a specific issue, taking in the big picture, or balancing financial
                 opportunities and risks. Our objective is to fully understand your requirements and work with you to develop long-term
                 perspectives so that we can give you the best advice and react swiftly and efficiently, even if circumstances alter
@@ -1042,7 +1042,7 @@
                                         <div class="swiper-slide">
                                             <blockquote class="icon icon-top fs-lg text-center">
                                                 <p>“I am completely new to investing, so this is like learning a new language to
-                                                me, hightrove has been a very suitable to me and my friends.”</p>
+                                                me, highclove has been a very suitable to me and my friends.”</p>
                                                 <div class="blockquote-details justify-content-center text-center">
                                                     <div class="info ps-0">
                                                         <h5 class="mb-1">Simmons Smith</h5>
@@ -1054,9 +1054,9 @@
                                         <!--/.swiper-slide -->
                                         <div class="swiper-slide">
                                             <blockquote class="icon icon-top fs-lg text-center">
-                                                <p>"I’ve been a client at hightrove investment for many years, I appreciate the
+                                                <p>"I’ve been a client at highclove investment for many years, I appreciate the
                                                 courtesy from the staff, not only do they have an outstanding work ethic and their moral
-                                                standards are of the highest caliber, I would recommend hightrove to anyone without
+                                                standards are of the highest caliber, I would recommend highclove to anyone without
                                                 Hesitation."</p>
                                                 <div class="blockquote-details justify-content-center text-center">
                                                     <div class="info ps-0">
@@ -1071,7 +1071,7 @@
                                             <blockquote class="icon icon-top fs-lg text-center">
                                                 <p>"I travel a lot because for my work and usually don’t have much time to monitor
                                                 my account, I get emails of the progress, money is sent to me wherever I am and it’s just
-                                                perfect.. so I will advise everyone to look into hightrove."</p>
+                                                perfect.. so I will advise everyone to look into highclove."</p>
                                                 <div class="blockquote-details justify-content-center text-center">
                                                     <div class="info ps-0">
                                                         <h5 class="mb-1">Alex Norwick</h5>
