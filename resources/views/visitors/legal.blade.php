@@ -2,97 +2,119 @@
 
 @section("body")
 
-
-
-<div class="banner banner-inner banner-s2 banner-s2-inner tc-light">
-    <div class="banner-block">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-sm-9">
-                    <div class="banner-content">
-                        <div class="line-animate">
-                            <span class="line line-top"></span>
-                            <span class="line line-right"></span>
-                            <span class="line line-bottom"></span>
-                            <span class="line line-left"></span>
-                        </div>
-                        <p class="sub-heading">Legal Information</p>
-                        <h1 class="banner-heading">Fidelity is our watchword</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-image">
-            <img src="images/bg-a.jpg" alt="banner">
-        </div>
-    </div>
-</div>
-
-
-</header>
+        
 <!-- START SECTION BANNER -->
-
-<div class="section section-x tc-grey-alt" style='padding-bottom: 10px;'>
-<div class="container">
-    <div class="row justify-content-between align-items-center gutter-vr-30px">
-        <div class="col-lg-4 order-lg-last">
-                            <a style="border: 1px solid #0047ab;" href="img/bit-1.pdf" class="btn-career btn-lg mb-20"><i class='fa fa-file-pdf-o'></i> Certificate of Incorporation <em class="ti-file"></em></a>
-                            <a style="border: 1px solid #0047ab; background-color: #0047ab; color: #fff;" href="img/bit-2.pdf" class="btn-career btn-lg mb-20"><i class='fa fa-file-pdf-o'></i> Our Company Profile<em class="ti-file text-white"></em></a>
-        </div>
-        <div class="col-lg-8">
-            <div class="text-block">
-                <h5 class="heading-xs dash">transcopefinancing </h5>
-                <h2>Legal Information</h2>
-                <p class="lead">
-                                        transcopefinancing  is one of the most reliable diversified financial investment service
-                        provider in the world. Our fundamental mission is to help customers and clients achieve
-                        their financial objectives. With offices located in the United Kingdom, Australia,Canada and
-                        headquartered in United States, transcopefinancing  have staffs with over 30 years’ experience in
-                        combining financial development and trades. We are committed to pushing the boundaries of
-                        what constitutes the highest standards in trades and asset management.
-                                        </p>
-            </div>
-        </div><!-- .col -->
-    </div><!-- .row -->
-    <div class="gap gap-8x d-none d-lg-block"></div>
-    <div class="row justify-content-center gutter-vr-30px">
-        <div class="col-12">
-            <div class="text-box service-box bg-primary h-full">
-                                        <p class="mywhite">
-                                            With over $5.3 Trillion traded daily in the market, we are dedicated to giving our clients their own share of the
-profit daily. As a leading global market maker, transcopefinancing  has one of the World’s Largest Independent
-traders and fund managers with clients from different parts of the World. Today, as a
-successful trade investment and asset management company, we are trusted by thousands of clients.
-Our sterling reputation, dedication to meeting our clients’ needs and innovative approach to business
+<section class="page-title centred" style="background-image: url(assets/images/background/page-title.jpg);">
+	<div class="auto-container">
+		<div class="content-box clearfix">
+			<ul class="bread-crumb clearfix">
+				<li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
+			</ul>
+			<h1>Legal Information</h1>                
+		</div>
+	</div>
+</section>
+<section class="about-style-two about-page-1 bg-color-1">
+	<div class="auto-container">
+		<div class="row clearfix">
+			<div class="col-lg-12 col-md-12 col-sm-12 content-column">
+				<div id="content_block_three">
+					<div class="content-box">
+						<div class="sec-title right">
+							<h2>Legal Information</h2>
+						</div>
+						<div class="text">
+							<p>{{ $compd ? $compd->companyname : 'company name' }} is one of the most reliable diversified financial investment service 
+							provider in the world. Our fundamental mission is to help customers and clients achieve 
+							their financial objectives. With offices locate in the United States, Australia,Canada and 
+							headquartered in Uk, {{ $compd ? $compd->companyname : 'company name' }} have staffs with over 30 years’ experience in 
+							combining financial development and trades. We are committed to pushing the boundaries of 
+							what constitutes the highest standards in trades and asset management.</p>
+					
+					<p >With over $5.3 Trillion traded daily in the market, we are dedicated to giving our clients their own share of the 
+profit daily. As a leading global market maker, {{ $compd ? $compd->companyname : 'company name' }} has one of the World’s Largest Independent 
+traders and fund managers with clients from different parts of the World. Today, as a 
+successful trade investment and asset management company, we are trusted by thousands of clients. 
+Our sterling reputation, dedication to meeting our clients’ needs and innovative approach to business 
 development are some driving forces behind our success.
-                                        </p>
-            </div>
-        </div>
-    </div><!-- .row -->
-</div>
-</div>
+					</p>
+						</div>
+						<a class="theme-btn style-one" href="https://find-and-update.company-information.service.gov.uk/company/{{ $compd ? $compd->companyphone : 'company phone' }}">Company Number: {{ $compd ? $compd->companyphone : 'company phone' }}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END SECTION BLOG -->
+<!--section class="clients-section">
+	<div class="auto-container">
+		<div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+		</div>
+	</div>
+</section-->
+
+<section class="cta-section">
+	<div class="auto-container">
+		<div class="inner-container clearfix">
+			<div class="title pull-left">
+				<h2>Open account for free and start investing!</h2>
+			</div>
+			<div class="btn-box pull-right">
+				<a href="{{route('register')}}">Get Started</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- cta-section end -->
 
 
-<!-- code -->
+<!-- fun-fact -->
+<section class="fun-fact centred">
+	<div class="auto-container">
+		<div class="row clearfix">
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<span class="count-text" data-speed="1500" data-stop="100253">0</span>
+					</div>
+					<p>Active Users</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<span class="count-text" data-speed="1500" data-stop="1338">0</span>
+					</div>
+					<p>Running Days</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="300021142.336">0</span>
+					</div>
+					<p>DEPOSIT</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="303452266721.39">0</span>
+					</div>
+					<p>WITHDRAWALS</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-<!-- end code -->
-<!-- section / cta-->
-<div class="section section-cta bg-primary tc-light">
-<div class="container">
-    <div class="row gutter-vr-30px align-items-center justify-content-between">
-        <div class="col-lg-8 text-center text-lg-left">
-            <div class="cta-text-s2">
-                <h2><span>Start your journey to</span> <strong> Financial freedom </strong></h2>
-            </div>
-        </div>
-        <div class="col-lg-4 text-lg-right text-center">
-            <div class="cta-btn">
-                <a href="{{route('joinus')}}" class="btn btn-lg">Get Started</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+
 
 
 

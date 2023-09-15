@@ -7,154 +7,146 @@
 
 
 
-<div class="banner banner-inner banner-s2 banner-s2-inner tc-light">
-    <div class="banner-block">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-sm-9">
-                    <div class="banner-content">
-                        <div class="line-animate">
-                            <span class="line line-top"></span>
-                            <span class="line line-right"></span>
-                            <span class="line line-bottom"></span>
-                            <span class="line line-left"></span>
-                        </div>
-                        <p class="sub-heading">Real Estate</p>
-                        <h1 class="banner-heading">Land banking Development</h1>
+<!-- START SECTION BANNER -->
+<section class="page-title centred" style="background-image: url(assets/images/background/page-title.jpg);">
+    <div class="auto-container">
+        <div class="content-box clearfix">
+            <ul class="bread-crumb clearfix">
+                <li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
+            </ul>
+            <h1>Real Estate</h1>                
+        </div>
+    </div>
+</section>
+<section class="team-section about-page-1">
+    <div class="auto-container">
+        <div class="title-box">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-6 col-sm-12 title-column">
+                    <div class="sec-title right">
+                        <h5>Asking Price</h5>
+                        <h2>$350,000</h2>
+                        <a class="btn btn-primary" href="mailto:{{ $compd ? $compd->companyemail : 'company email' }}"> Make An Offer</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                    <div class="text">
+                        <p>4/5.5/2 |5,472 sqft |8,060 sqft lot Location:Afton oaks </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg-image">
-            <img src="images/bg-a.jpg" alt="banner">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/4.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/4b.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/4c.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="news-block-one wow fadeInUp animated animated animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                    <div class="inner-box">
+                        <figure class="image-box"><img src="images/hs/4d.jpg" alt=""></figure>
+                        
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
-</div>
-
-
-</header>
-<!-- START SECTION BANNER -->
-<div class="section section-x team ">
-<div class="container">
-                                    <div class="row justify-content-between align-items-center gutter-vr-30px">
-        <div class="col-lg-12 order-lg-last">
-            <div class="image-block">
-                <img src="serv/ldp.jpg" alt="">
-            </div>
-        </div><!-- .col -->
-        <div class="col-lg-12">
-            <div class="text-block">
-                <h5 class="heading-xs dash">Real Estate</h5>
-                                        <h2>WHAT IS LAND BANKING?</h2>
-                                        <p class="lead">
-                                            Land banking is the act of buying undeveloped land with the goal of
-                                            clutching it for a while and selling it for profit at a future date when
-                                            the price appreciates.
-                                        </p>
-                                        <br>
-                <h2>LAND BANKING DEVELOPMENT</h2>
-                <p class="lead">
-                                        Land Banking Project is a Real Estate investment initiative that involves the
-                                            acquisition and development of a large expanse of land for building,
-                                            ownership, and profit maximization.
-
-Land banking Development Project is a secured and reliable  Real Estate investment platform established by
-transcopefinancing .
-
-For over three years, it has served the investment and property development needs of investors with
-great returns and has become the go-to platform for smart real estate investors.
-
-We started with LDP 1.0 and now we’re are on LDP 11 and we have been able to help investors grow their
-wealth and make their money work or them and a lot has cash out their investment .
-
-Are you thinking buying a unit of Real Estate Development to earn high Returns on Investment (ROI),
-create wealth, and secure a future for yourself and your family? Then, don’t look too far!
-
-Land banking Development Project is all you need!
-
-INVESTMENT OFFER
-With different durations to choose from, Land banking allows you to earn:
-<br><br>
-                                        <ul>
-                                            <li>
-                                                <b>
-50% Return on Investment for 6 months.
-                                                </b>
-                                            </li>
-                                            <li>
-                                                <b>
-30% Return on Investment for 3 months.
-                                                </b>
-                                            </li>
-                                        </ul>
-                                        <br>
-
-For instance, if you invest $100,000 for a duration of 6months, you get to earn $50,000, Return on
-Investment, which would be paid at maturity
-in addition to your invested capital, which amounts to $150,000.
-                                        </p>
-
-
-                                        <p class="lead">
-                                          If you had the chance to double—or even quadruple—your retirement savings, you’d probably jump at that opportunity,
-                            right? Well, there’s one simple change you can make today that’s sure to boost your retirement savings.
-
-                                        </p>
-
-            </div>
-        </div><!-- .col -->
-    </div>
-
-                <div class="gap gap-8x d-none d-lg-block"></div>
-    <div class="row justify-content-center gutter-vr-30px">
-        <div class="col-12">
-            <div class="text-box service-box bg-secondary h-full">
-                <h4 class="fw-6 mtm-5">HOW TO INVEST</h4>
-                                        <ul>
-                                            <li><p><i class="fa fa-check-square"></i> -Fill a form (online or offline).</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Make payment.</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Send the duly completed form and evidence of payment to support@transcopefinancing.com</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Payment Receipt sent to your mail.</p></li><br>
-                                        </ul>
-
-                                        <h4 class="fw-6 mtm-5">To guarantee the safety of your investments and put your mind at ease, investors get the following security documents upon investing</h4>
-
-                                        <ul>
-                                            <li><p><i class="fa fa-check-square"></i> -A Post-dated Cheque*(Confirmed before lodgement)</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Investment Certificate</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Deed of Agreement (Property Allocation To Hold)</p></li><br>
-                                            <li><p><i class="fa fa-check-square"></i> -Insurance Certificate</p></li><br>
-                                        </ul>
-
-            </div>
+</section>
+<!--section class="clients-section">
+    <div class="auto-container">
+        <div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+            <figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+            <figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
         </div>
-                    <a href="user/{{route('joinus')}}" class="btn">Start Banking On Land</a>
     </div>
+</section-->
 
-                        </div><!-- .container -->
-</div>
-
-
-<!-- code -->
-
-<!-- end code -->
-<!-- section / cta-->
-<div class="section section-cta bg-primary tc-light">
-<div class="container">
-    <div class="row gutter-vr-30px align-items-center justify-content-between">
-        <div class="col-lg-8 text-center text-lg-left">
-            <div class="cta-text-s2">
-                <h2><span>Start your journey to</span> <strong> Financial freedom </strong></h2>
+<section class="cta-section">
+    <div class="auto-container">
+        <div class="inner-container clearfix">
+            <div class="title pull-left">
+                <h2>Open account for free and start investing!</h2>
             </div>
-        </div>
-        <div class="col-lg-4 text-lg-right text-center">
-            <div class="cta-btn">
-                <a href="user/{{route('joinus')}}" class="btn btn-lg">Get Started</a>
+            <div class="btn-box pull-right">
+                <a href="{{route('register')}}">Get Started</a>
             </div>
         </div>
     </div>
-</div>
-</div>
+</section>
+<!-- cta-section end -->
+
+
+<!-- fun-fact -->
+<section class="fun-fact centred">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="100253">0</span>
+                    </div>
+                    <p>Active Users</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <span class="count-text" data-speed="1500" data-stop="1338">0</span>
+                    </div>
+                    <p>Running Days</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="300021142.336">0</span>
+                    </div>
+                    <p>DEPOSIT</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+                <div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="count-outer count-box" style="font-size: 35px;">
+                        <img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="303452266721.39">0</span>
+                    </div>
+                    <p>WITHDRAWALS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 
 
 

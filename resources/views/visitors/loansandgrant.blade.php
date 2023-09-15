@@ -2,131 +2,123 @@
 
 @section("body")
 
-
-
-<div class="banner banner-inner banner-s2 banner-s2-inner tc-light">
-    <div class="banner-block">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-sm-9">
-                    <div class="banner-content">
-                        <div class="line-animate">
-                            <span class="line line-top"></span>
-                            <span class="line line-right"></span>
-                            <span class="line line-bottom"></span>
-                            <span class="line line-left"></span>
-                        </div>
-                        <p class="sub-heading">Our Services</p>
-                        <h1 class="banner-heading">Loans and Grants</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-image">
-            <img src="images/bg-a.jpg" alt="banner">
-        </div>
-    </div>
-</div>
-
-
-</header>
 <!-- START SECTION BANNER -->
+<section class="page-title centred" style="background-image: url(assets/images/background/page-title.jpg);">
+	<div class="auto-container">
+		<div class="content-box clearfix">
+			<ul class="bread-crumb clearfix">
+				<li><a href="/">{{ $compd ? $compd->companyname : 'company name' }}</a></li>
+			</ul>
+			<h1>Loan</h1>                
+		</div>
+	</div>
+</section>
+<section class="about-style-two about-page-1 bg-color-1">
+	<div class="auto-container">
+		<div class="row clearfix">
+			<div class="col-lg-7 col-md-12 col-sm-12 content-column">
+				<div id="content_block_three">
+					<div class="content-box">
+						<div class="sec-title right">
+							<h2>Get A Loan</h2>
+						</div>
+						<div class="text">
+							<p>Getting a loan doesn’t have to be intimidating, with the right lender it can be
+						   a simple process. You only need a lender committed to taking the mystery out of the mortgage loan 
+						   process! At {{ $compd ? $compd->companyname : 'company name' }}, we understand! Our investors want simple facts, honest answers
+						   and competitive products.
 
+DGS automatically offers loan services to investors with over $50,000 investment either in our normal {{ $compd ? $compd->companyname : 'company name' }} financial
 
+Services packages or the NFP plans. Investors over $50,000 are entitled to loans of $200,000-1millon dollars yearly with 5% 
+paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and 
+identity of the investor are duly confirmed by {{ $compd ? $compd->companyname : 'company name' }} loan board.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="section section-x tc-grey-alt" style='padding-bottom: 10px;'>
-<div class="container">
-    <div class="row justify-content-between align-items-center gutter-vr-30px">
-        <div class="col-lg-4 order-lg-last">
-            <div class="image-block">
-                <img src="serv/7.jpg" alt="">
-            </div>
-        </div><!-- .col -->
-        <div class="col-lg-8">
-            <div class="text-block">
-                <h5 class="heading-xs dash">transcopefinancing </h5>
-                <h2>Loans and Grants</h2>
-                <p class="lead">
-                                        Getting a loan doesn’t have to be intimidating, with the right lender it can be
-                       a simple process. You only need a lender committed to taking the mystery out of the mortgage loan
-                       process! At transcopefinancing , we understand! Our investors want simple facts, honest answers
-                       and competitive products.
-
-DGS automatically offers loan services to investors with over $50,000 investment either in our normal transcopefinancing  financial
-
-Services packages or the NFP plans. Investors over $50,000 are entitled to loans of $200,000-1millon dollars yearly with 5%
-paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and
-identity of the investor are duly confirmed by transcopefinancing  loan board.
-
-Every investor above $50,000 is provided with a personal account manager and the investor has a direct communication with
+Every investor above $50,000 is provided with a personal account manager and the investor has a direct communication with 
 the manager in order to see that our loan offers are secured.
 
-GREAT INVESTING WITH transcopefinancing  FAMILY
-                                        </p>
-            </div>
-        </div><!-- .col -->
-    </div><!-- .row -->
-</div>
-</div>
-
-
-
-
-
-<div class="project-area project-call section-m bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="d-lg-flex text-center text-lg-left align-items-center justify-content-between">
-                        <h2 class="fw-4">Want to see more services? </h2>
-                                                        <a href="{{route('services')}}" class="btn">See All Services</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
+GREAT INVESTING WITH {{ $compd ? $compd->companyname : 'company name' }} FAMILY</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-12 col-sm-12 image-column">
+				<div id="image_block_two">
+					<div class="image-box">
+						<div class="pattern-layer" style="background-image: url(assets/images/shape/shape-25.png);"></div>
+						<figure class="image"><img src="assets/images/resource/about-2.jpg" alt=""></figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- END SECTION BLOG -->
+<!--section class="clients-section">
+	<div class="auto-container">
+		<div class="clients-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-1.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-2.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-3.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-4.png" alt=""></a></figure>
+			<figure class="client-logo"><a href="/"><img src="assets/images/clients/clients-5.png" alt=""></a></figure>
+		</div>
+	</div>
+</section-->
 
-<!-- code -->
-
-<!-- end code -->
-<!-- section / cta-->
-<div class="section section-cta bg-primary tc-light">
-<div class="container">
-    <div class="row gutter-vr-30px align-items-center justify-content-between">
-        <div class="col-lg-8 text-center text-lg-left">
-            <div class="cta-text-s2">
-                <h2><span>Start your journey to</span> <strong> Financial freedom </strong></h2>
-            </div>
-        </div>
-        <div class="col-lg-4 text-lg-right text-center">
-            <div class="cta-btn">
-                <a href="{{route('joinus')}}" class="btn btn-lg">Get Started</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+<section class="cta-section">
+	<div class="auto-container">
+		<div class="inner-container clearfix">
+			<div class="title pull-left">
+				<h2>Open account for free and start investing!</h2>
+			</div>
+			<div class="btn-box pull-right">
+				<a href="{{route('register')}}">Get Started</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- cta-section end -->
 
 
-
+<!-- fun-fact -->
+<section class="fun-fact centred">
+	<div class="auto-container">
+		<div class="row clearfix">
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<span class="count-text" data-speed="1500" data-stop="100253">0</span>
+					</div>
+					<p>Active Users</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<span class="count-text" data-speed="1500" data-stop="1338">0</span>
+					</div>
+					<p>Running Days</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="300021142.336">0</span>
+					</div>
+					<p>DEPOSIT</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+				<div class="counter-block-one wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+					<div class="count-outer count-box" style="font-size: 35px;">
+						<img src="images/coins/usdt.html" style="width: 30px; height: auto;" alt=""> USDT <span class="count-text" data-speed="1500" data-stop="303452266721.39">0</span>
+					</div>
+					<p>WITHDRAWALS</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 @endsection

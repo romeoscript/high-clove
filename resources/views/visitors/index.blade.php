@@ -1,818 +1,412 @@
 @extends('layouts.spacedcustomlayout')
-<!-- new one -->
-<link rel="stylesheet" href="{{ asset('assets/css/newhomecss/min.css') }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-<style>
-    #row2 {
-        height: 300px !important;
-        overflow: visible;
-    }
 
-    @media (max-width:480) {
-        #row2 {
-            height: 700px !important;
-        }
-
-    }
-
-.price_tag{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 20px;
-  background: #14ae85;
-}
-.content1{
-  max-width: 1090px;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
- .content1 .card{
-  background: #fff;
-  width: calc(33% - 20px);
-  text-align: center;
-  padding: 15px 30px  30px 30px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-  margin: 0 1rem;
-}
-.content1 .card .top{
-  height: 130px;
-  color: #fff;
-  padding: 12px 0 0 0 ;
-  border-radius: 10px
-  /* clip-path: polygon(0 0, 100% 0, 100% 53%, 49% 100%, 0 53%); */
-}
-.content1 .card .top .title{
- font-size: 27px;
- font-weight: 600;
-}
-.content1 .card .top .price-sec{
-  margin-top: -10px;
-  font-weight: 600;
-}
-.content1 .card .top .price{
-  font-size: 45px;
-}
-.content1 .card .info{
-  font-size: 16px;
-  margin-top: 20px;
-}
-.content1 .card .details .one{
-  margin-top: 25px;
-  font-size: 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-.content1 .card .details .one::before{
-  position: absolute;
-  content: "";
-  width: 100%;
-  background: #ddd;
-  height: 1px;
-  left: 0;
-  top: -12px;
-  border-radius: 25px;
-}
-.content1 .card .details .one i{
-  color: #2db94d;
-}
-.content1 .card .details i.fa-times{
-  color: #cd3241;
-}
-.content1 .card button{
-  outline: none;
-  border: none;
-  height: 42px;
-  color: #fff;
-  margin-top: 30px;
-  border-radius: 3px;
-  font-size: 18px;
-  width: 100%;
-  display: block;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  letter-spacing: 1px;
-}
-.content1 .one .top,
-.content1 .one button{
-  background: #14eb6e;
-}
-.content1 .two .top,
-.content1 .two button{
-  background: #e87130;
-}
-.content1 .three .top,
-.content1 .three button{
-  background: #11BCC3;
-}
-.content1 button:hover {
-  filter: brightness(90%);
-}
-.content1 .one ::selection{
-background: #8af5b6;
-}
-.content1 .two ::selection{
-background:  #f2b08c;
-}
-.content1 .three ::selection{
-background: #d0f9fb;
-}
-@media (max-width:1000px) {
-   .content .card{
-    background: #fff;
-    width: calc(50% - 20px);
-    margin-bottom: 30px;
-}
-}
-@media (max-width:715px) {
- .content1 .card{
-    width: 100%;
-}
-}
-
-</style>
 @section('body')
-    <div class="header-section">
-        <div class="first-child">
-            <div class="overlay"></div>
-            <div class="text">
-                <span class="title"> <span style="color: aqua;">Welcome to Transcope Financing</span>
-                    At Transcope Financing, we provide well-practiced and deft investing strategies with a
-                    straightforward market approach to help our clients navigate through the market volatility and making
-                    their welfare our prime concern. We have created a user-friendly and state-of-the-art interactive tools
-                    that help you plan and implement a better financial strategy that best reaches your goals. From managing
-                    casual day-to-day activities to more life-changing choices. Some people search for financial experts
-                    looking for tinctures to ease their uncertainty. Transcope Financing is just the right place for
-                    you, where the path to investing is not just promising, it’s better.</span>
-
-            </div>
-        </div>
-        <div class="second-child">
-            <div class="parent-child">
-                <div class="empty"></div>
-                <div class="text">
-                    <span class="title">STRATEGY & PLANNING</span>
-                    <h1>A customized path for your life</h1>
-                </div>
-            </div>
-            <div class="parent-child2">
-                <div class="text">
-
-                    <span class="title">getting started</span>
-                    <h1>Start to define your vision
-                    </h1>
-                    <button> <a href="{{ route('joinus') }}"> GET STARTED</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="service">
-        <div class="over"></div>
-        <h4>WHAT WE OFFER</h4>
-        {{-- <div class="service-text">
-        You are unique and you deserve a unique, fee-only solution.
-    </div> --}}
-        <div class="service-2">
-            <p>
-                We would be honored to learn more about your financial situation and discover the best way to tackle your
-                financial crisis or meet your investment goals. With roots as an institutional fund, Transcope Financial
-                Management provides the same institutional caliber expertise to individuals. This means every investor gets
-                a disciplined investment strategy along with our unique, high-touch client service.
-                We help individuals and families assess their unique personal situations, plan for the long term and invest
-                to meet their goals. From financial planning to retirement plans through a tailored approach, we always put
-                our client's needs first. <br> Our steady counsel helps clients stay on track, even when markets are choppy
-                or life is unpredictable. We provide a tailored approach to investment management and financial planning
-                that always puts clients first.
-                This starts with a comprehensive assessment of every client's financial situation. We devote enough time to
-                understand our client's personal financial condition, long-term goals, and investment objectives before
-                making any recommendations. We utilize that information to craft a portfolio specifically for them. Over
-                time, client's portfolio may change based on personal circumstances or our forward-looking views of the
-                market. We offer a comprehensive set of financial planning, retirement planning, and portfolio management
-                services.</p>
-        </div>
-        <div class="service-card">
-            <div class="card">
-                <h4>Portfolio Management</h4>
-                <p>We don’t sell cookie-cutter portfolios. We take the time to understand your individual goals and needs
-                    and build a tailored portfolio to help you meet your objectives. And we regularly check in on anything
-                    that may have changed.</p>
-                <a href="{{ route('portfoliomanagement') }}">Find out more</a>
-            </div>
-            <div class="card an">
-                <h4>Retirement Planning </h4>
-                <p>We take a comprehensive approach to retirement planning that will prioritize your goals and develop an
-                    all-inclusive strategy to achieve those goals.</p><a href="{{ route('retirement') }}">Find out more</a>
-            </div>
-
-            <div class="card">
-                <h4>Financial Planning </h4>
-                <p>Women who are single, widowed, or divorced face the challenge of identifying the needs that must be
-                    addressed today, while setting and working towards goals for tomorrow.</p><a
-                    href="{{ route('finacialplaning') }}">Find out more</a>
-            </div>
-
-            <div class="card an">
-                <h4>Tailored Investment Approach</h4>
-                <p>We would help you meet your longer-term goals with a tailored investment strategy that’s specifically
-                    designed for you because we believe an informed investor is a better investor and a happier client.</p>
-                <a href="{{ route('tailoredinvestment') }}">Find out more</a>
-            </div>
-
-        </div>
-    </div>
-    <div class="nothing"></div>
-    <div class="our-team-section">
-        <div class="team-one">
-            <h4>OUR TEAM</h4>
-            <h3>A financial team that cares</h3>
-            <p>Every member of our team focuses on making our clients and their families feel comfortable when discussing
-                financial decisions that can potentially be stressful and could have a great impact on their lives.
-            </p>
-            {{-- <a href="{{ asset('assets/Transcopepdf.pdf') }}">Download brochure</a> --}}
-           
-            <button><a style="color: white;" href="{{ route('ourteam') }}"> Meet our financial team</a></button>
-        </div>
-        <div class="team-two">
-            <!-- <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/Transcopepdf.pdf') }}"></object> -->
-        </div>
-    </div>
-
-
-<section class="price_tag">
-  <div class="content1">
-    @if ($investmentplans)
-    @foreach ($investmentplans as $price)
-    <div class="card one">
-      <div class="top">
-        <div class="title">{{ $price->name }}</div>
-        <div class="price-sec">
-          <span class="dollar">$</span>
-          <span class="price">{{$price->minimum}}</span>
-          <span class="decimal">.00</span>
-        </div>
-      </div>
-      <div class="info">Limited features you will get on this package or plan</div>
-      <div class="details">
-        <div class="one">
-          <span>{{ $price->noofrepeat }}+ Days Duration</span>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="one">
-          <span>Daily profit of   {{ $price->percentage}}%</span>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="one">
-          <span>Total profit of   {{ $price->percentage * $price->noofrepeat }}%</span>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="one">
-          <span>Referal Bonus of {{ $price->refpercent}}%</span>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="one">
-          <span>Maximum of ${{ $price->maximum }}</span>
-          <i class="fas fa-check"></i>
-        </div>
-        <button><a href="{{ route('joinus') }}"> GET STARTED</a></button>
-      </div>
-    </div>
-    @endforeach
-      @endif
-   
-  </div>
   
-    
-       
-      
-       
-      </div>
+
+<section class="wrapper bg-dark">
+    <div class="swiper-container swiper-hero dots-over" data-margin="0" data-autoplay="true"
+        data-autoplaytime="7000" data-nav="true" data-dots="true" data-items="1">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="frontend/assets/img/bank.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                Planning for the future</h2>
+                                <p
+                                    class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
+                                    Highly skilled industrial expertise assisting you in meeting your financial objectives.</p>
+                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="/#"
+                                        class="btn btn-sm btn-outline-white rounded-pill">Get Started</a></div>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
+                </div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="frontend/assets/img/group.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                    Enhance your investment decisions.</h2>
+                                <p
+                                    class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
+                                    Explore financial growth and protection strategies</p>
+                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="/#"
+                                        class="btn btn-sm btn-outline-white rounded-pill">Get Started</a></div>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
+                </div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+                    data-image-src="frontend/assets/img/slider3.jpg">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div
+                                class="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                                <h2
+                                    class="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                                    Just sit and relax.</h2>
+                                <p
+                                    class="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
+                                Start investing with us today and put your money to work for you.</p>
+                                <div class="animate__animated animate__slideInUp animate__delay-3s"><a href="/#"
+                                        class="btn btn-sm btn-outline-white rounded-pill">Get Started</a></div>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/.container -->
+                </div>
+                <!--/.swiper-slide -->
+            </div>
+            <!--/.swiper-wrapper -->
+        </div>
+        <!-- /.swiper -->
+    </div>
+    <!-- /.swiper-container -->
 </section>
-
-    <div class="process-section">
-        <div class="process-content">
-            <div class="process-image">
-                <img src="./assets/images/eyes-2.svg" alt="">
-            </div>
-            <h3>Open and Honest Discussions</h3>
-            <p>We take the time to understand your personal and financial circumstances as well as identify any goals you
-                may have.</p>
-
-        </div>
-        <div class="process-content">
-            <div class="process-image">
-                <img src="./assets/images/our-process-icon2-1.svg" alt="">
-            </div>
-            <h3>Creating a Financial Picture</h3>
-            <p>Once we have gathered your information, we will integrate your financial pieces into a comprehensive plan
-                that maximizes your potential for meeting your life goals.</p>
-
-        </div>
-        <div class="process-content">
-            <div class="process-image">
-                <img src="./assets/images/our-process-icon3-1.svg" alt="">
-            </div>
-            <h3>Having a Plan in Place</h3>
-            <p>We present the plan to you and go over each of our recommendations. Your feedback is encouraged, and we can
-                make any changes to the plan, if needed.</p>
-        </div>
-        <div class="process-content">
-            <div class="process-image">
-                <img src="./assets/images/our-process-icon4-1.svg" alt="">
-            </div>
-            <h3>Making your Goals a Reality</h3>
-            <p>After making sure each piece of the plan is in place, we continue to monitor your progress. We will keep in
-                touch with you on any significant life changes that may impact your financial plan.</p>
-        </div>
-    </div>
-    
-    <div class="expertise">
-        <div class="fake"></div>
-        <div class="text">
-            <span>EXPERTISE & GUIDANCE</span>
-            <p>Discover how we’ll clearly define your vision</p>
-        </div>
-        <!-- <video  controls id="vidmate">
-            <source src="./assets/images/Transcope-vid.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video> -->
-    </div>
-    <div class="people-state">
-        <div class="people-state-kid mini">
-            <div class="ani"></div>
-            <h3>Our fee-only, non-commission approach means we have your best interests at heart.</h3>
-        </div>
-        <div class="people-state-kid">
-            <h3>Certified Financial Planners</h3>
-            <p>{{ $compd ? $compd->companyname : 'company name' }} employs only CERTIFIED FINANCIAL PLANNER™ certificants,
-                which means we have the experience and knowledge to effectively plan your financial future.</p>
-
-            <img src="./assets/images/FPA-logo.svg" alt="">
-            <img src="./assets/images/napfa-logo.svg" alt="">
-
-        </div>
-    </div>
-
-
-
-    <section class="people-say-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- section header start -->
-                    <div class="section-header wow bounceInLeft" data-wow-duration="2s">
-                        <h2>What People <span>Say</span> </h2>
-                        <p><img src="assets/images/logo/icon.png" alt="icon"></p>
+<section class="wrapper bg-light">
+    <div class="container py-14 py-md-18">
+        <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center mb-10 mb-md-13">
+            <div class="col-lg-6 position-relative">
+                <!-- <div class="btn btn-circle btn-primary pe-none position-absolute counter-wrapper flex-column d-none d-md-flex"
+                    style="top: 50%; left: 50%; transform: translate(-50%, -50%); width: 170px; height: 170px;">
+                    <h3 class="text-white mb-1 mt-n2"><span class="counter counter-lg">20+</span></h3>
+                    <p>Year Experience</p>
+                </div> -->
+                <div class="row gx-md-5 gy-5 align-items-center">
+                    <div class="col-md-6">
+                        <div class="row gx-md-5 gy-5">
+                            <div class="col-md-10 offset-md-2">
+                                <figure class="rounded"><img src="frontend/assets/img/photos/ab1.jpg"
+                                        alt=""></figure>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-12">
+                                <figure class="rounded"><img src="frontend/assets/img/photos/ab2.jpg"
+                                         alt=""></figure>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
                     </div>
-                    <!-- section header end -->
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <figure class="rounded"><img src="frontend/assets/img/photos/ab3.jpg"
+                             alt=""></figure>
+                    </div>
+                    <!--/column -->
                 </div>
+                <!--/.row -->
             </div>
-            <div class="row">
-                <div class="col-md-12">
+            <!--/column -->
+            <div class="col-lg-6">
+                <h3 class="display-4 mb-5">YOUR SATISFACTION DEFINES US</h3>
+                <p class="mb-7">Finding the best investment firm to work with can make or break your financial security. Whether you're investing a
+                little or a lot, your money is just as important to you, and it's critical to find a financial investment professional
+                you can rely on to steer you toward wise investment buys.</p>
+                <div class="row gy-3">
+                    <div class="col-xl-6">
+                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                            <li><span><i class="uil uil-check"></i></span><span>Seasoned financial experts and brokers.</span></li>
+                            <li class="mt-3"><span><i class="uil uil-check"></i></span><span>We are constantly hungry to learn new things and to impart the finest knowledge we can to our consumers.</span></li>
+                        </ul>
+                    </div>
+                    <!--/column -->
+                    <div class="col-xl-6">
+                        <ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+                            <li><span><i class="uil uil-check"></i></span><span>Better investment decisions, informed by rigorous, proprietary macro-economic research and market analysis.</span></li>
 
-                    <div class="testimonial-area">
-                        <div class="row">
-                            <div class="col-lg-12  col-md-10 ">
-                                <div class="row">
-                                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2">
-                                        <div class="testimonial-image-slider slider-nav text-center">
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes1.JPEG" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes2.JPEG" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tex3.JPEG" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes4.JPEG" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes5.JPEG" style="object-fit: cover;" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes6.JPEG" alt="slider">
-                                            </div>
-
-                                            <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/1627748086.jpg" alt="slider">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row" id="row2">
-                            <div class="col-md-12 ">
-                                <div class="testimonial-text-slider slider-for text-center wow bounceInRight"
-                                    data-wow-duration="2s">
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>C. Lovett</h4>
-
-                                            <h6>WASHINGTON-DC</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                I have been an investor with
-                                                {{ $compd ? $compd->companyname : 'company name' }} for about a year and nine
-                                                months now. While it's too early to say how my investment will turn out in
-                                                the long run, I will attest that I am impressed by the company's level of
-                                                due diligence and its
-                                                professionalism and open communication. All questions I've ever had, I've
-                                                gotten answers to. I'm comforted by the fact
-                                                {{ $compd ? $compd->companyname : 'company name' }} seems to put investors'
-                                                interests first.
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>Gary Adamson</h4>
-
-                                            <h6>Toronto,Canada</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                            <div>"Since investing with {{ $compd ? $compd->companyname : 'company name' }} we
-                                                have worked together to get a clear understandable plan for our future which
-                                                gives me confidence and security knowing what kind of lifestyle I can lead.
-                                                In addition, we have seen gains in our portfolio in a short space of time
-                                                which is a reassuring indicator. Our meetings are consultative and personal
-                                                with all decisions made after full discussion and
-                                                clear explanation.”</div>
-                                            <div><br></div>
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>James Anderson</h4>
-
-                                            <h6>Florida</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                            <div>i have been with {{ $compd ? $compd->companyname : 'company name' }} for
-                                                six years now and all i can say is that Transcope has a great client
-                                                relationship and service which allows us to connect, confide and also
-                                                collaborate in planning
-                                                and managing our finances through our Joint investment account. It has been
-                                                a great pleasure to work with
-                                                {{ $compd ? $compd->companyname : 'company name' }} and i would gladly
-                                                recommend them.</div>
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>Nettie B.Sarah</h4>
-
-                                            <h6>Sweden</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                I have invested with {{ $compd ? $compd->companyname : 'company name' }}
-                                                since 2009. They have proven to be knowledgeable and professional in all my
-                                                dealings with them. The firm's disciplined approach, a keen eye for value,
-                                                attention to detail, and superior execution place them
-                                                at the top of my list. I have full confidence in their honesty and
-                                                integrity, and I look forward to partnering with them again.
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>Charles S. Macaluso</h4>
-
-                                            <h6>California</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                “Like many people, I spend the majority of my time planning for my business
-                                                but pay little or no attention to my finances.
-                                                {{ $compd ? $compd->companyname : 'company name' }} has developed a personal
-                                                plan for me that allows me to take much greater control of my financial
-                                                affairs,
-                                                and plan for the future. Everything now makes much more sense, and I only
-                                                wish I had got in touch with
-                                                {{ $compd ? $compd->companyname : 'company name' }} sooner!”<br>
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>Chirag Beharry</h4>
-
-                                            <h6>India</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                “Working with {{ $compd ? $compd->companyname : 'company name' }} has been
-                                                like working with an extension of our family business. Their strong business
-                                                ethics and integrity is top-notch and has made our working relationship very
-                                                pleasurable and efficient.”<br>
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                    <div class="sin-testiText">
-                                        <!-- people sat content list start -->
-                                        <div class="people-say-content-list  ">
-                                            <h4>Mary and William S.</h4>
-
-                                            <h6>Brisbane,Australia</h6>
-                                            <ul>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                                <li>
-                                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                                </li>
-                                            </ul>
-                                            <p>
-                                                {{ $compd ? $compd->companyname : 'company name' }} guided me through the
-                                                process of making a sound financial decision for our family. Most
-                                                importantly, they took the time to make sure we understood every aspect of
-                                                the transaction until we felt 100% comfortable.
-                                            </p>
-                                        </div>
-                                        <!-- people-say-content-list end -->
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                        </ul>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-8">
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="frontend/assets/img/icons/lineal/telephone-3.svg"
+                            class="svg-inject icon-svg icon-svg-sm text-primary me-4" alt="" />
+                    </div>
+                    <div>
+                        <h4 class="mb-1">Consultation</h4>
+                        <p class="mb-0">We assure you that it is our desire and intentions to keep the doors of consultation always and fully open.</p>
                     </div>
                 </div>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="frontend/assets/img/icons/lineal/shield.svg"
+                            class="svg-inject icon-svg icon-svg-sm text-primary me-4" alt="" />
+                    </div>
+                    <div>
+                        <h4 class="mb-1">Saving Adviser</h4>
+                        <p class="mb-0">Our team of professionals are committed to guiding you in choosing plans that best suits your budget.</p>
+                    </div>
+                </div>
+            </div>
+            <!--/column -->
+            <div class="col-md-6 col-lg-4">
+                <div class="d-flex flex-row">
+                    <div>
+                        <img src="frontend/assets/img/icons/lineal/analytics.svg"
+                            class="svg-inject icon-svg icon-svg-sm text-primary me-4" alt="" />
+                    </div>
+                    <div>
+                        <h4 class="mb-1">Financial Strategy</h4>
+                        <p class="mb-0">We all want wealth, but how do we achieve it? It starts with a successful Investment into an Opportunity which no one
+                        else seems to see.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.row -->
+
+    </div>
+    <!-- /.container -->
+</section>
+<section class="wrapper bg-soft-ash">
+    <div class="container pt-14 pb-14 pt-md-16">
+        <div class="row text-center">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <h2 class="fs-16 text-uppercase text-muted mb-3">Why Trusting Us?</h2>
+                <h3 class="display-4 mb-10 px-xl-10">Solutions tailored to your needs.
+                </h3>
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="position-relative">
+            <div class="shape rounded-circle bg-soft-blue rellax w-16 h-16" data-rellax-speed="1"
+                style="bottom: -0.5rem; right: -2.2rem; z-index: 0;"></div>
+            <div class="shape bg-dot primary rellax w-16 h-17" data-rellax-speed="1"
+                style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
+            <div class="row gx-md-5 gy-5 text-center">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <img src="frontend/assets/img/icons/lineal/search-2.svg"
+                                class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
+                            <h4>Financial Strategy</h4>
+                            <p class="mb-2">We all want wealth, but how do we achieve it? It starts with a successful Investment into an Opportunity which no one
+                            else seems to see.</p>
+
+                        </div>
+                        <!--/.card-body -->
+                    </div>
+                    <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-4">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <img src="frontend/assets/img/icons/lineal/briefcase.svg"
+                                class="svg-inject icon-svg icon-svg-md text-red mb-3" alt="" />
+                            <h4>Tax Consultant</h4>
+                            <p class="mb-2">Wages are only medicine to poverty as you need other source of incomes in order to meet up with your Taxes and that is
+                            why you need our Investment Manager's.</p>
+
+                        </div>
+                        <!--/.card-body -->
+                    </div>
+                    <!--/.card -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-xl-4">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <img src="frontend/assets/img/icons/lineal/award-2.svg"
+                                class="svg-inject icon-svg icon-svg-md text-green mb-3" alt="" />
+                            <h4>Retirement Advisor</h4>
+                            <p class="mb-2">Don't simply retire from something; have something to retire to. We are here to help you with that.</p>
+
+                        </div>
+                        <!--/.card-body -->
+                    </div>
+                    <!--/.card -->
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.position-relative -->
+    </div>
+    <!-- /.container -->
+</section>
+<section class="wrapper bg-light angled lower-end">
+    <div class="container py-8 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
+            <div class="col-lg-6 position-relative order-lg-2">
+                <div class="shape bg-dot primary rellax w-16 h-20" data-rellax-speed="1"
+                    style="top: 3rem; left: 5.5rem"></div>
+                <div class="overlap-grid overlap-grid-2">
+                    <div class="item">
+                        <figure class="rounded shadow"><img src="frontend/assets/img/photos/about2.jpg"
+                                 alt=""></figure>
+                    </div>
+                    <div class="item">
+                        <figure class="rounded shadow"><img src="frontend/assets/img/photos/about3.jpg"
+                                 alt=""></figure>
+                    </div>
+                </div>
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+                <h2 class="display-4 mb-3">COMPREHENSIVE WEALTH MANAGEMENT</h2>
+                <p class="">At Hightrove Finance, our customers are put first at all times. Your own Client Relationship Officer is there for you
+                every step of the way whether you're delving into a specific issue, taking in the big picture, or balancing financial
+                opportunities and risks. Our objective is to fully understand your requirements and work with you to develop long-term
+                perspectives so that we can give you the best advice and react swiftly and efficiently, even if circumstances alter
+                unforeseenly.</p>
 
             </div>
-
+            <!--/column -->
         </div>
-        <!-- row -->
-    </section>
-    <!--  section -->
-    <!--testimonial section start-->
-
-
-
-    <!--Deopsit and Payouts section start-->
-    <!--<section class="hosting-section hosting-section1  section-padding section-background">-->
-    <!--      <div class="container">-->
-    <!--                  <div class="row">-->
-    <!--        <div class="col-md-12">-->
-    <!-- section header start -->
-    <!--          <div class="section-header wow bounceInDown" data-wow-duration="3s">-->
-    <!--            <h2>Latest <span> Deposits & Withdraw</span></h2>-->
-    <!--             <p><img src="https://transcopefinancing.com/assets/images/logo/icon.png" alt="icon"></p>-->
-    <!--          </div>-->
-    <!-- section header end -->
-    <!--        </div>-->
-    <!--      </div>-->
-    <!--      <div class="row">-->
-    <!--        <div class="col-md-6">-->
-    <!--              <div class="section-wrapper wow bounceInLeft" data-wow-duration="2s">-->
-    <!--                 <div class="deposit-title text-center">-->
-    <!--                        <h4>Latest Deposits</h4>-->
-    <!--                    </div>-->
-    <!--                <div class="hosting-content table-responsive">-->
-    <!--                  <table>-->
-    <!--                    <thead>-->
-    <!--                      <tr>-->
-    <!--                        <th>Name</th>-->
-    <!--                        <th>Date</th>-->
-    <!--                        <th>Currency</th>-->
-    <!--                         <th>Amount</th>-->
-    <!--                      </tr>-->
-
-    <!--                    </thead>-->
-    <!--                    <tbody>-->
-    <!--                        -->
-    <!--                            <tr>-->
-    <!--                                <td>Noah lucas</td>-->
-    <!--                                <td>Nov 03,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$2000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                            <tr>-->
-    <!--                                <td>Rachnanohra</td>-->
-    <!--                                <td>Oct 29,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$30000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                            <tr>-->
-    <!--                                <td>Michelle Klaudi Clinton</td>-->
-    <!--                                <td>Oct 29,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$400000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                            <tr>-->
-    <!--                                <td>Michelle Klaudi Clinton</td>-->
-    <!--                                <td>Oct 29,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$200000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                            <tr>-->
-    <!--                                <td>Michelle Klaudi Clinton</td>-->
-    <!--                                <td>Oct 29,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$400000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                            <tr>-->
-    <!--                                <td>Lucy Wesley</td>-->
-    <!--                                <td>Oct 28,2021</td>-->
-    <!--                                <td><strong>USD</strong></td>-->
-    <!--                                <td><strong>$30000</strong></td>-->
-    <!--                            </tr>-->
-    <!--                            -->
-    <!--                    </tbody>-->
-    <!--                  </table>-->
-    <!--                </div>-->
-    <!-- hosting content end -->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--                    <div class="col-md-6">-->
-    <!--              <div class="section-wrapper wow bounceInRight" data-wow-duration="2s">-->
-    <!--                  <div class="deposit-title text-center">-->
-    <!--                        <h4>Latest Withdraw</h4>-->
-    <!--                    </div>-->
-    <!--                <div class="hosting-content table-responsive">-->
-    <!--                  <table>-->
-    <!--                    <thead>-->
-    <!--                      <tr>-->
-    <!--                         <th>Name</th>-->
-    <!--                         <th>Date</th>-->
-    <!--                         <th>Currency</th>-->
-    <!--                         <th>Amount</th>-->
-    <!--                      </tr>-->
-
-    <!--                    </thead>-->
-    <!--                    <tbody>-->
-    <!--                      -->
-    <!--                        <tr>-->
-    <!--                            <td>Michael A. Lehr</td>-->
-    <!--                            <td>Oct 12,2021</td>-->
-    <!--                            <td><strong>USD</strong></td>-->
-    <!--                            <td><strong>$500</strong></td>-->
-    <!--                        </tr>-->
-    <!--                      -->
-    <!--                        <tr>-->
-    <!--                            <td>franklin</td>-->
-    <!--                            <td>Oct 12,2021</td>-->
-    <!--                            <td><strong>USD</strong></td>-->
-    <!--                            <td><strong>$500</strong></td>-->
-    <!--                        </tr>-->
-    <!--                      -->
-    <!--                    </tbody>-->
-    <!--                  </table>-->
-    <!--                </div>-->
-    <!-- hosting content end -->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--        </div><!-- row -->
-    <!--      </div><!-- container -->
-    <!--    </section>-->
-    <!--Deopsit and Payouts Section End-->
     </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<section class="wrapper bg-soft-primary">
+    <div class="container py-14 pt-md-17 pb-md-21">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-2 align-items-end">
+            <div class="col-lg-4">
+                <h3 class="display-4 mb-0 pe-xxl-15">More Reasons To Work With Us</h3>
+            </div>
+            <!-- /column -->
+            <div class="col-lg-8 mt-lg-2">
+                <div class="row align-items-center counter-wrapper gy-6 text-center">
+                    <div class="col-md-4">
+                        <h3 class="counter counter-lg">26</h3>
+                        <p>Associated Companies</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                        <h3 class="counter counter-lg">13111+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                        <h3 class="counter counter-lg">13</h3>
+                        <p>Awards Won</p>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /column -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<section class="wrapper bg-light angled upper-end">
+    <div class="container pt-16 position-relative">
+        <div class="position-relative mt-n18 mt-md-n23 mb-16 mb-md-18">
+            <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
+                style="top: -2rem; right: -2.7rem; z-index:0;"></div>
+            <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1"
+                style="bottom: -1rem; left: -3rem; z-index:0;"></div>
+            <div class="card shadow-lg">
+                <div class="row gx-0">
+                    <div class="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
+                        data-image-src="frontend/assets/img/photos/tm1.jpg">
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <div class="p-10 p-md-11 p-lg-13">
+                            <div class="swiper-container dots-closer mb-4" data-margin="30" data-dots="true">
+                                <div class="swiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <blockquote class="icon icon-top fs-lg text-center">
+                                                <p>“I am completely new to investing, so this is like learning a new language to
+                                                me, hightrove has been a very suitable to me and my friends.”</p>
+                                                <div class="blockquote-details justify-content-center text-center">
+                                                    <div class="info ps-0">
+                                                        <h5 class="mb-1">Simmons Smith</h5>
 
-    <!-- Online Section End -->
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <!--/.swiper-slide -->
+                                        <div class="swiper-slide">
+                                            <blockquote class="icon icon-top fs-lg text-center">
+                                                <p>"I’ve been a client at hightrove investment for many years, I appreciate the
+                                                courtesy from the staff, not only do they have an outstanding work ethic and their moral
+                                                standards are of the highest caliber, I would recommend hightrove to anyone without
+                                                Hesitation."</p>
+                                                <div class="blockquote-details justify-content-center text-center">
+                                                    <div class="info ps-0">
+                                                        <h5 class="mb-1">Evans Junior</h5>
 
-    {{-- <div class="clearfix"></div> --}}
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <!--/.swiper-slide -->
+                                        <div class="swiper-slide">
+                                            <blockquote class="icon icon-top fs-lg text-center">
+                                                <p>"I travel a lot because for my work and usually don’t have much time to monitor
+                                                my account, I get emails of the progress, money is sent to me wherever I am and it’s just
+                                                perfect.. so I will advise everyone to look into hightrove."</p>
+                                                <div class="blockquote-details justify-content-center text-center">
+                                                    <div class="info ps-0">
+                                                        <h5 class="mb-1">Alex Norwick</h5>
+
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <!--/.swiper-slide -->
+                                    </div>
+                                    <!-- /.swiper-wrapper -->
+                                </div>
+                                <!-- /.swiper -->
+                            </div>
+                            <!-- /.swiper-container -->
+                        </div>
+                        <!--/div -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /div -->
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+</div>
+<!-- /.content-wrapper -->
+
+
+
 @endsection

@@ -2,205 +2,64 @@
 
 @section("body")
 
-
-<div class="main-content">
-    
-    <!--header section start-->
-    <section class="breadcrumb-section" style="background-image: url('assets/images/estate.jpg')">
-      <div class="container">
+<section class="wrapper image-wrapper bg-image bg-overlay text-white" data-image-src="frontend/assets/img/re.jpg">
+    <div class="container pt-19 pt-md-21 pb-18 text-center">
         <div class="row">
-          <div class="col-md-12">
-            <!-- breadcrumb Section Start -->
-            <div class="breadcrumb-content">
-               <h5>Real Estate Management</h5>
+            <div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+                <h1 class="display-1 text-white mb-3">Real Estate</h1>
+                <p class="lead fs-lg px-md-3 px-lg-7 px-xl-9 px-xxl-10">Build long term wealth with Our Real Estate Investments.
+                </p>
             </div>
-            <!-- Breadcrumb section End -->
-          </div>
+            <!-- /column -->
         </div>
-      </div>
-    </section>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
+<section class="wrapper bg-light">
+    <div class="container pt-10">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 mb-lg-10 mb-xl-10 align-items-center">
+            <div class="col-lg-12 ">
+                <div class="row gx-md-5 gy-5">
+                    <p>
 
-    <!--about us page content start-->
-    <section class="section-padding about-us-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Real Estate</h3>
-                    <p>
-                    Building a diversified portfolio to hedge against market volatility, investors finally have the opportunity to invest outside of traditional stocks and bonds markets thanks to the {{$compd? $compd->companyname :"company name"}} Growth REIT fund. 
+                    Real estate trading is the wild side of real estate investment. Like day traders, who are distinct from buy-and-hold
+                    investors, real estate traders are an entirely different breed from buy-and-rent landlords. Real estate traders buy
+                    properties with the intention of holding them for a short period of time, often no more than three to four months, after
+                    which they hope to sell them for a profit. This technique is also called flipping properties and is based on buying
+                    properties that are either significantly undervalued or in a very hot market.
+
+                    Real estate trading has a shorter time period during which capital and effort are tied up in a property. Depending on
+                    market conditions, there can be significant returns even on this shorter time frame.
+
+
+
                     </p>
                     <p>
-                    Here’s how the fund works: Our experienced real estate team pinpoints properties with the highest potential. We purchase, renovate and manage apartment buildings across the country. The fund renovates the units to increase the cash flow. 
-                     This immediately increases the building’s value as well as the rents.
+                        As property flippers we often forgo putting any money into a house for improvements; the investment has to have the
+                        intrinsic value to turn a profit without alteration or we won’t consider it. Flipping in this manner is a short-term
+                        cash investment. To take advantage of potentially large returns, We have to have cash on hand, as traditional financing
+                        doesn’t generally work for this type of transaction.
+
+                        A second class of property flipper also exists. These investors make their money by buying reasonably priced properties
+                        and adding value by renovating them. This can be a longer-term investment depending on the extent of the improvements.
+                        The limiting feature of this investment is that it is time intensive and often only allows investors to take on one or
+                        two properties at a time hence we try to avoid properties with high maintenance cost and focus more on properties with
+                        high undervalue
+
+                        For more Information contact us via Live chat
                     </p>
-                    <p>
-                         Cash flow from rents is reinvested throughout the fund’s term to continue adding new properties and funding renovations. Since all properties are cash flowing, we wait and let the assets further appreciate so we can sell them at a maximum profit. When the market is right, we sell the assets and redistribute profits among investors.
-                        
-                    </p>
-                    <p>
-                        When you invest with Transcope, your dollars start working for you as you start to earn returns on your investments. As an investor, you are investing with a partner, not just a broker. Other broker platforms charge you unnecessary middleman fees. Our key differentiator is that we are a sponsor-direct platform. This means we own and manage all of our assets. Your investment is managed by us and your return will come under our ownership alone, removing several layers of third parties and their fees. We provide value by strategizing and leveraging industry knowledge of over forty years of experience to maximize your return.
-                    </p>
-                    <p>
-                        Our team is involved throughout the whole investment lifecycle to ensure you are provided the managed investment you hoped for. We provide decades of successful real estate investing experience while we pursue the best results for our investments. The {{$compd? $compd->companyname :"company name"}} Growth REIT is designed to be a long-term investment and we aim to maintain several cash-flowing properties in the portfolio, generating revenue from rents.
-                    </p>
-                    <p>
-                         When market conditions are suitable for an advantageous liquidation event, we sell the assets at which point investors will receive their principal and returns back. Our team shares the same vision and we have the experience. We have the team, the platform, and the technology to make it happen, and nothing is going to stop us from bringing wealth-building opportunities to the everyday investor.
-                    </p>
-                     
+
                 </div>
+
             </div>
-            
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Designed to harness the market’s potential</h3>
-                    <p>
-                    The more than $5 billion of real estate we’ve invested in thus far have been strategically chosen to capitalize on the demands generated by long-term demographic trends. We believe that this focus on real assets in the real economy is reflected in the results we’ve achieved for our clients.
-                    </p>
-                    <p>
-                   By employing a combination of strategies, we aim to build well-rounded, resilient portfolios targeted to deliver consistently strong results based on our clients’ goals and appetite for risk.
-                    </p>
-                    <p>
-                         One of the most important questions to ask when evaluating a new investment advisor is “how have you performed for your existing clients?” With thousands of clients, and each with a wide range of objectives, the answer is more nuanced than a single number.
-                        
-                    </p>
-                    
-                     
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Explore Recent projects in our portfolio</h3>
-                    <p>
-                    Here are the real estate investments that are powering our investors’ returns.
-                    </p>
-                <hr>
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                <img class="img" src="assets/images/image1.jpg">
-                            </div>
-                            
-                            <div class="col-md-8">
-                                <p>
-                                    
-We combine advanced modeling techniques with our years of experience to determine the underlying value of each property. This often enables us to see opportunities where others don’t.
 
-We apply both a top-down and bottom-up approach to evaluating every potential acquisition. The research-driven top-down approach utilizes advanced market and economic forecast models to identify markets in which to invest.
-
-This macro view is then followed by a thorough bottom-up approach that evaluates the property itself based on its condition and the local market situation. It relies heavily on local market expertise, broad-based contacts, and extensive “bricks and mortar experience.”
-
-                                </p>
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <hr>
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-8">
-                                
-                                <p>
-                                    Whispering Oaks Apartments is in the suburb of Conroe, Houston,Tx. When Transcope acquired the property it was a neglected Class C property.  We renovated all of the unit interiors with new appliances, light fixtures, plumbing fixtures, flooring and paint.  We also performed many enhancements to the exterior to improve curb appeal.  The property was a top three finalist for Houston Apartment Association’s “Property of the Year” in 2017.
-                                    </p>
-                                    <p>
-
-The renovation and management improvements enhanced the property’s performance substantially after acquisition, boosting net income by 85% by the end of the first year.  The enhanced performance allowed the property to achieve the fourth year’s projected income by the end of the second year.
-</p>
-                                
-                            </div>
-                            
-                            <div class="col-md-4">
-                                <p>
-<img class="img" src="assets/images/image2.jpg" style="margin-top:10px;">
-                                </p>
-                                
-                            </div>
-                            
-                        </div>
-                        
-                        <hr>
-                        
-                        <div class="row">
-                            
-                            <div class="col-md-4">
-                                
-                                 <p>
-<img class="img" src="assets/images/image3.jpg">
-                                </p>
-                                
-                                
-                               
-                            </div>
-                            
-                            <div class="col-md-8">
-                                
-                                 <p>
-                                    
-                        {{$compd? $compd->companyname :"company name"}} acquired the former Walnut Grove Apartments in Austin, TX and completed a major rehabilitation of the interior and exterior of the buildings and landscaping. This complex consists of five buildings, all of which are two-story garden-style walk-ups. Within 12 months of acquisition, the entire property had been reconstructed and stabilized, with occupancy rising from 66% to 97%.  We increased gross income 86% in the first two years, and brought Net Operating Income from negative to $160K in the first year.
-
-
-                                    </p>
-                                    <p>
-
-Having exceeded all acquisition projections, {{$compd? $compd->companyname :"company name"}} liquidated the property less than two years after acquiring it, achieving a 42.5% net IRR to our investors.
-                
-                                </p>
-                                
-                               
-                            </div>
-                            
-                        </div>
-                        
-                        
-                             
-                        <hr>
-                         
-                        
-                        <div class="row">
-                            
-                            
-                            
-                            <div class="col-md-12">
-                                <h3>Understanding Transcope Financial Managment historical Real estate returns</h3>
-                                <p>
-                                    In 2019, Transcope Financial Managment produced a total net platform return of approximately 9.47%. But in many ways using a singular weighted average figure to represent the entirety of the platform’s performance oversimplifies the actual diverse experience of our investors on Transcope Financial Managment, as well as the fundamentals of how investing in real estate actually works.
-</p><p>
-At the end of 2019, Transcope Financial Managment had more than 37,000 active investors. Those investors ranged from having spent as little as one day on the platform to more than five years. Collectively, they invested in portfolios composed of as many as 16 different eREITs and eFunds, as well as many project dependent notes (the predecessor of the eREITs), with investment objectives ranging from generating consistent income, to maximizing long-term growth, to a balanced blend of each. As a result, nearly every one of our investors had a unique return for their Transcope Financial Managment portfolio based on their specific set of individual circumstances.
-</p><p>
-
-While 9.47% was the net overall platform return, only a few investors earned exactly 9.47% — most earned either a little more or a little less, and some earned a lot more or a lot less.<br>
-
-What nearly all 37,000 investors had in common was this:<br>
-
-An investor’s unique return for the year was highly correlated to the amount of time they’d been investing with Transcope Financial Managment.
-<br>
-Historically, the less time investors had been investing the lower their likely returns, while the more time they’d been investing, the higher their likely returns. We highlight this not because we believe it will always hold true in all circumstances, but because generally speaking we believe it can help investors understand what makes investing on Transcope Financial Managment different from investing in the stock market (of course, it is important to always remember that past performance cannot and does not predict future outcomes, which may vary greatly from what has occurred previously).
-                                </p>
-                                
-                                 <p>
-<img class="img" src="assets/images/image4.jfif">
-                                </p>
-                                
-                                
-                               
-                            </div>
-                      
-                            
-                        </div>
-                        
-                     
-                </div>
-            </div>
         </div>
-    </section>
-</div>
-
-<!-- Online Section End -->
-
-<div class="clearfix"></div>
+        <!--/.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /section -->
 
 @endsection

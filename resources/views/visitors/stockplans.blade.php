@@ -5,90 +5,56 @@
 
 
 
+<main class="stocksandshare-contents ourservices-page">
+	<!-- contents of the page -->
+ <section>
+ 	<div class="paragraph stocksandshare-header header">
+    		<h1>
+    			<span class="line"></span> Trustbund fx <span class="line"></span>
+    		</h1>
+    	</div>
+    	<div class="paragraph">
+    		<h2>stock or share</h2>
+    		<div class="flex stocksandshare-row">
+    			<p>
+    			A stock or share (also known as a company's "equity") is a financial instrument that represents ownership in a company or corporation and represents a proportionate claim on its assets (what it owns) and earnings (what it generates in profits). Stock ownership implies that the shareholder owns a slice of the company equal to the number of shares held as a proportion of the company's total outstanding shares. For instance, an individual or entity that owns 100,000 shares of a company with one million outstanding shares would have a 10% ownership stake in it. Most companies have outstanding shares that run into the millions or billions.
+    			</p>
+    			<div class="img-container">
+    				<img src="{{asset("images/stock-img.png")}}" alt="stocks or share">
+    			</div>
+    		</div>
+    	</div>
+ </section>
 
+ <section class="investin-stocks">
+     <h3>how do i invest in stocks with 0% commission</h3>
+     <ul>
+         <li> create an account</li>
+         <li> a deposit plan</li>
+         <li> make deposit</li>
+         <li> get your ROI on plan completion</li>
+     </ul>
+ </section>
 
-    <div class="section section-x tc-grey">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <div class="section-head section-md res-m-btm">
-                        <h5 class="heading-xs dash dash-both">Pricing</h5>
-                        <h2 class="fw-1">Stock Investment</h2>
-                    </div>
-                </div><!-- .col -->
-            </div><!-- .row -->
-            <div class="row justify-content-center gutter-vr-30px">
+ 
 
-                @if ($stockplans)
-                @foreach ( $stockplans as $plan )
+ <!--want to see more services section -->
+	<section>
+		 <div class="want-tosee-more flex">
+    	  	<p>want to see more services &quest;</p>
+    	  	<a href="{{route('services')}}" target="_blank">see all services</a>
+    	  </div>
+	</section>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="pricing-boxed pricing-boxed-s2">
-                        <div class="pricing-price pricing-price-s2">
-                            <h2>{{$plan->name}}</h2>
-                            <p></p>
-                        </div>
-                        <div class="pricing-feature pricing-feature-s2">
-                            <ul>
-                                <li>Min Deposit <b>${{$plan->minimum }}</b></li>
-                                <li>Max Deposit <b>${{$plan->maximum }}</b></li>
+	<section class="start-financial-freedom">
+    	<div class="flex">
+    		<p>Start your journey to
+    	   <span class="lg-font">financial freedom</span></p>
+    	   <a href="{{route('login')}}">get started</a>
+    	</div>
+    </section>
 
-
-                                <li>3 Months Profit<b>{{$plan->percentage  * $plan->noofrepeat}}%</b></li>
-                                <li>Daily  Profit <b>{{$plan->percentage }}%</b></li>
-
-                                <li>Duration <b>{{$plan->noofrepeat }} days</b></li>
-                            </ul>
-                        </div>
-                        <div class="pricing-cta pricing-cta-s2">
-                            <div class="price">
-                                <h2>${{($loop->index + 1) * 1000 + $plan->minimum }} +</h2>
-                            </div>
-                            <div class="cta-area">
-                                <a href="{{route('login')}}" style='padding: 10px 20px; margin-top: -12px;'
-                                    class="btn btn-sm">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                @endforeach
-
-                @else
-                    <h5> Not available at the moment </h5>
-                @endif
-
-
-
-
-            </div>
-            <!-- .row -->
-        </div><!-- .container -->
-    </div>
-
-
-    <!-- code -->
-
-    <!-- end code -->
-    <!-- section / cta-->
-    <div class="section section-cta bg-primary tc-light">
-        <div class="container">
-            <div class="row gutter-vr-30px align-items-center justify-content-between">
-                <div class="col-lg-8 text-center text-lg-left">
-                    <div class="cta-text-s2">
-                        <h2><span>Start your journey to</span> <strong> Financial freedom </strong></h2>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-lg-right text-center">
-                    <div class="cta-btn">
-                        <a href="{{route('login')}}" class="btn btn-lg">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+</main>
 
 
 
