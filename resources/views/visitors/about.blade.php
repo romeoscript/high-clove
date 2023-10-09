@@ -41,7 +41,7 @@
 
                 <h2 class="display-4 mb-3">About Us</h2>
                 <p class="">
-                    High Trove is a UK based investment manager with offices in the USA, Canada and Switzerland. We are a dynamic group
+                    High clove is a UK based investment manager with offices in the USA, Canada and Switzerland. We are a dynamic group
                     whose main focus is to provide our clients with the best possible services, by applying a systematic and quantitative
                     approach to investment management with the aim of generating high-quality and diversifying alpha for our clients’
                     portfolios. We offer long term and short term investment opportunities. High Trove was established in 2002, initially
