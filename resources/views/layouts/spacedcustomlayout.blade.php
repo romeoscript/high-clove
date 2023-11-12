@@ -14,9 +14,17 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </head>
 
 <body>
+      <div id="google_translate_element" style="position: fixed; top:6%; left:7%; z-index:1000000;"></div>
     <div class="content-wrapper">
         <header class="wrapper bg-soft-primary">
             <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-dark caret-none">
