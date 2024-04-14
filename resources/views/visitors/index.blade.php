@@ -1162,6 +1162,9 @@
         </div>
         <!-- /.container -->
     </section>
+    <section style="display: flex; align-items:center;justify-content:center; height:300px; width:90%; margin:auto;">
+        <video src="assets/highvid.mp4" controls style="height: 100%;width:100%;"></video>
+    </section>
     <section class="wrapper bg-soft-ash">
         <div class="container pt-14 pb-14 pt-md-16">
             <div class="row text-center">
